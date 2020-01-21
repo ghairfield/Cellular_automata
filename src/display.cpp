@@ -4,18 +4,25 @@
 
 #include "display.h"
 
-Display::Display() : m_running(false), m_maxX(-1), m_maxY(-1), m_window(nullptr), m_render(nullptr), m_cells(nullptr)
+Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr)
 {
+    m_cell = new char [DISPLAY_MAX_X * DISPLAY_MAX_Y];
+    for (int i = 0; i < DISPLAY_MAX_X * DISPLAY_MAX_Y; ++i)
+        m_cell[i] = 0;
 }
 
+Display::~Display()
+{
+    delete [] m_cell;
+}
 
-bool Display::OnInit(int x, int y) {
-    if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_EVENTS | SDL_INIT_TIMER) != 0) {
+bool Display::OnInit() {
+    if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER) != 0) {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not initialize SDL: %s", SDL_GetError());
         return false;
     }
 
-    if (SDL_CreateWindowAndRenderer(x, y, 0, &m_window, &m_render) != 0) {
+    if (SDL_CreateWindowAndRenderer(DISPLAY_MAX_X, DISPLAY_MAX_Y, 0, &m_window, &m_render) != 0) {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not initialize the window/renderer: %s", SDL_GetError());
         SDL_Quit();
         return false;
@@ -23,10 +30,6 @@ bool Display::OnInit(int x, int y) {
 
     SDL_SetWindowTitle(m_window, "Cellular Automation");
     m_running = true;
-    m_maxX = x;
-    m_maxY = y;
-
-    m_cells = new bool[x*y];
 
     return true;
 }
@@ -38,23 +41,41 @@ bool Display::Run()
 
     while (m_running) {
         while (SDL_PollEvent(&event)) OnEvent(event);
-        DrawGrid();
-
+        DisplayGridOnScreen();
+        DrawScreen();
         SDL_RenderPresent(m_render);
+        SDL_Delay(100);
     }
 
     return true;
 }
 
-void Display::DrawGrid(int spacing)
+void Display::DisplayGridOnScreen()
 {
     SDL_SetRenderDrawColor(m_render, 3, 152, 252, SDL_ALPHA_OPAQUE);
 
-    for (int ix = spacing; ix < m_maxX; ix += spacing) {
-        SDL_RenderDrawLine(m_render, ix, 0, ix, m_maxY);
+    for (int ix = spacing; ix < DISPLAY_MAX_X; ix += spacing) {
+        SDL_RenderDrawLine(m_render, ix, 0, ix, DISPLAY_MAX_Y);
     }
-    for (int iy = spacing; iy < m_maxY; iy += spacing) {
-        SDL_RenderDrawLine(m_render, 0, iy, m_maxX, iy);
+    for (int iy = spacing; iy < DISPLAY_MAX_Y; iy += spacing) {
+        SDL_RenderDrawLine(m_render, 0, iy, DISPLAY_MAX_X, iy);
+    }
+}
+
+void Display::DrawScreen()
+{
+    SDL_SetRenderDrawColor(m_render, 255, 111, 0, SDL_ALPHA_OPAQUE);
+
+    for (int x = 0; x < DISPLAY_MAX_X; ++x) {
+        for (int y = 0; y < DISPLAY_MAX_Y; ++y) {
+           if (m_cell[x + (y * DISPLAY_MAX_Y)] == 1) {
+               SDL_Rect r = { (x * spacing + 2), (y * spacing + 2), 7, 7};
+               SDL_RenderFillRect(m_render, &r);
+               if (SDL_RenderDrawRect(m_render, &r) != 0) {
+                   SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", (x * spacing + 1), (y * spacing + 1));
+               }
+           }
+        }
     }
 }
 
@@ -62,8 +83,6 @@ void Display::OnDestroy() {
     if (m_render) SDL_DestroyRenderer(m_render);
     if (m_window) SDL_DestroyWindow(m_window);
     SDL_Quit();
-
-    delete [] m_cells;
 }
 
 void Display::OnEvent(SDL_Event& e) {
@@ -72,4 +91,24 @@ void Display::OnEvent(SDL_Event& e) {
 
 void Display::OnExit() {
     m_running = false;
+}
+
+void Display::getCellPosition(std::pair<int, int> &pos, int x, int y) {
+    pos.first = x / spacing;
+    pos.second = y / spacing;
+}
+
+void Display::OnLeftMouseDown(int x, int y) {
+    std::pair<int, int> t;
+    getCellPosition(t, x, y);
+
+    m_cell[t.first + (t.second * DISPLAY_MAX_Y)] = 1;
+}
+
+void Display::OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) {
+    Event::OnMouseMoveWithLeftButton(x, y, rx, ry);
+}
+
+void Display::OnLeftMouseUp(int x, int y) {
+    Event::OnLeftMouseUp(x, y);
 }

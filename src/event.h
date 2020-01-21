@@ -14,8 +14,18 @@ public:
 
     virtual void OnEvent(SDL_Event& e);
 
+    // Events, must override
     virtual void OnKeyDown(SDL_Scancode key, Uint16 mod) {};
     virtual void OnKeyUp(SDL_Scancode key, Uint16 mod) {};
+
+    virtual void OnLeftMouseDown(int x, int y) {};
+    virtual void OnLeftMouseUp(int x, int y) {};
+    virtual void OnRightMouseDown(int x, int y) {};
+    virtual void OnRightMouseUp(int x, int y) {};
+    virtual void OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) {};
+    virtual void OnMouseMoveWithRightButton(int x, int y, int rx, int ry) {};
+    virtual void OnMouseMotion() {};
+
     virtual void OnExit() {};
 };
 

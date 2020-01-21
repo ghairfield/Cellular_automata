@@ -6,36 +6,46 @@
 #define CELLULAR_AUTOMATA_DISPLAY_H
 
 #include "SDL2/SDL.h"
+#include <utility>
 #include "event.h"
+
+#define DISPLAY_MAX_X 1200
+#define DISPLAY_MAX_Y 800
 
 class Display : public Event {
 public:
+    static constexpr std::pair<int, int> maxSize{ DISPLAY_MAX_X, DISPLAY_MAX_Y };
+    static constexpr int spacing = 10;
 
     Display();
+    ~Display() override;
 
-    bool OnInit(int x = 1200, int y = 800);
+    bool OnInit();
 
     bool Run();
 
     void OnEvent(SDL_Event& e) override;
+    void OnLeftMouseDown(int x, int y) override;
+    void OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) override;
+    void OnLeftMouseUp(int x, int y) override;
+
     void OnExit() override;
 
-    void DrawGrid(int spacing = 10); // Set line spacing every 10th pixel
+    void DisplayGridOnScreen();
 
     void OnDestroy();
 
-    void getSize(int &x, int &y) { x = m_maxX; y = m_maxY; }
-    void setGridAndDisplay(bool* grid) { m_cells = grid; }
-
 private:
 
+    void getCellPosition(std::pair<int, int> &pos, int x, int y);
+    void DrawScreen();
+
     bool m_running;
-    int m_maxX, m_maxY;
 
     SDL_Window *m_window;
     SDL_Renderer *m_render;
 
-    bool *m_cells;
+    char *m_cell;
 };
 
 
