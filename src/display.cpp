@@ -67,16 +67,25 @@ void Display::DisplayGridOnScreen()
 
 void Display::DrawScreen() {
     SDL_Rect r;
-    SDL_SetRenderDrawColor(m_render, 255, 11, 0, SDL_ALPHA_OPAQUE);
 
     for (int ix = 0; ix < MAX_ARR_X; ++ix) {
         for (int iy = 0; iy < MAX_ARR_Y; ++iy) {
-            if (m_cell[ARR_XY(ix, iy)].val == 1 && m_cell[ARR_XY(ix, iy)].dirty) {
+            if (m_cell[ARR_XY(ix, iy)].dirty) {
                 r = {(ix * DISPLAY_SPACING + 2), (iy * DISPLAY_SPACING + 2), 7, 7};
-                m_cell[ARR_XY(ix, iy)].dirty = false;
-//                SDL_RenderFillRect(m_render, &r);
-                if (SDL_RenderDrawRect(m_render, &r) != 0) {
-                    SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", ix, iy);
+                if (m_cell[ARR_XY(ix, iy)].val != 0) {
+                    SDL_SetRenderDrawColor(m_render, 255, 11, 0, SDL_ALPHA_OPAQUE);
+                    m_cell[ARR_XY(ix, iy)].dirty = false;
+//                  SDL_RenderFillRect(m_render, &r);
+                    if (SDL_RenderDrawRect(m_render, &r) != 0) {
+                        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", ix, iy);
+                    }
+                } else {
+                    SDL_SetRenderDrawColor(m_render, 0, 0, 0, SDL_ALPHA_OPAQUE);
+                    m_cell[ARR_XY(ix, iy)].dirty = false;
+//                  SDL_RenderFillRect(m_render, &r);
+                    if (SDL_RenderDrawRect(m_render, &r) != 0) {
+                        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", ix, iy);
+                    }
                 }
             }
         }
