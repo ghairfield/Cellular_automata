@@ -4,11 +4,14 @@
 
 #include "display.h"
 
+#define ARR_XY(x,y) ((x) + ((y) * (DISPLAY_MAX_X / DISPLAY_SPACING)))
+#define MAX_ARR_X (DISPLAY_MAX_X / DISPLAY_SPACING)
+#define MAX_ARR_Y (DISPLAY_MAX_Y / DISPLAY_SPACING)
+
 Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr)
 {
-    m_cell = new char [DISPLAY_MAX_X * DISPLAY_MAX_Y];
-    for (int i = 0; i < DISPLAY_MAX_X * DISPLAY_MAX_Y; ++i)
-        m_cell[i] = 0;
+    m_cell = new Node [DISPLAY_MAX_ARR];
+    clearCells();
 }
 
 Display::~Display()
@@ -44,7 +47,7 @@ bool Display::Run()
         DisplayGridOnScreen();
         DrawScreen();
         SDL_RenderPresent(m_render);
-        SDL_Delay(100);
+        SDL_Delay(10);
     }
 
     return true;
@@ -54,27 +57,28 @@ void Display::DisplayGridOnScreen()
 {
     SDL_SetRenderDrawColor(m_render, 3, 152, 252, SDL_ALPHA_OPAQUE);
 
-    for (int ix = spacing; ix < DISPLAY_MAX_X; ix += spacing) {
+    for (int ix = DISPLAY_SPACING; ix < DISPLAY_MAX_X; ix += DISPLAY_SPACING) {
         SDL_RenderDrawLine(m_render, ix, 0, ix, DISPLAY_MAX_Y);
     }
-    for (int iy = spacing; iy < DISPLAY_MAX_Y; iy += spacing) {
+    for (int iy = DISPLAY_SPACING; iy < DISPLAY_MAX_Y; iy += DISPLAY_SPACING) {
         SDL_RenderDrawLine(m_render, 0, iy, DISPLAY_MAX_X, iy);
     }
 }
 
-void Display::DrawScreen()
-{
-    SDL_SetRenderDrawColor(m_render, 255, 111, 0, SDL_ALPHA_OPAQUE);
+void Display::DrawScreen() {
+    SDL_Rect r;
+    SDL_SetRenderDrawColor(m_render, 255, 11, 0, SDL_ALPHA_OPAQUE);
 
-    for (int x = 0; x < DISPLAY_MAX_X; ++x) {
-        for (int y = 0; y < DISPLAY_MAX_Y; ++y) {
-           if (m_cell[x + (y * DISPLAY_MAX_Y)] == 1) {
-               SDL_Rect r = { (x * spacing + 2), (y * spacing + 2), 7, 7};
-               SDL_RenderFillRect(m_render, &r);
-               if (SDL_RenderDrawRect(m_render, &r) != 0) {
-                   SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", (x * spacing + 1), (y * spacing + 1));
-               }
-           }
+    for (int ix = 0; ix < MAX_ARR_X; ++ix) {
+        for (int iy = 0; iy < MAX_ARR_Y; ++iy) {
+            if (m_cell[ARR_XY(ix, iy)].val == 1 && m_cell[ARR_XY(ix, iy)].dirty) {
+                r = {(ix * DISPLAY_SPACING + 2), (iy * DISPLAY_SPACING + 2), 7, 7};
+                m_cell[ARR_XY(ix, iy)].dirty = false;
+//                SDL_RenderFillRect(m_render, &r);
+                if (SDL_RenderDrawRect(m_render, &r) != 0) {
+                    SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not write rectangle to %d,%d", ix, iy);
+                }
+            }
         }
     }
 }
@@ -93,22 +97,48 @@ void Display::OnExit() {
     m_running = false;
 }
 
-void Display::getCellPosition(std::pair<int, int> &pos, int x, int y) {
-    pos.first = x / spacing;
-    pos.second = y / spacing;
-}
+ void Display::getCellPosition(std::pair<int, int> &pos, int x, int y) {
+    pos.first = x / DISPLAY_SPACING;
+    pos.second = y / DISPLAY_SPACING;
+ }
 
 void Display::OnLeftMouseDown(int x, int y) {
     std::pair<int, int> t;
     getCellPosition(t, x, y);
-
-    m_cell[t.first + (t.second * DISPLAY_MAX_Y)] = 1;
+    writeCellPosition(t, 1);
 }
 
 void Display::OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) {
-    Event::OnMouseMoveWithLeftButton(x, y, rx, ry);
+    std::pair<int, int> t;
+    getCellPosition(t, x, y);
+    writeCellPosition(t, 1);
 }
 
-void Display::OnLeftMouseUp(int x, int y) {
-    Event::OnLeftMouseUp(x, y);
+void Display::OnRightMouseDown(int x, int y) {
+    std::pair<int, int> t;
+    getCellPosition(t, x, y);
+    writeCellPosition(t, 0);
+}
+
+void Display::OnMouseMoveWithRightButton(int x, int y, int rx, int ry) {
+    std::pair<int, int> t;
+    getCellPosition(t, x, y);
+    writeCellPosition(t, 0);
+}
+
+void Display::clearCells() {
+    for (int i = 0; i < DISPLAY_MAX_ARR; ++i) {
+        m_cell[i].dirty = true;
+        m_cell[i].val = 0;
+    }
+}
+
+void Display::OnKeyDown(SDL_Scancode key, Uint16 mod) {
+    if (key == SDL_SCANCODE_C) clearCells();
+}
+
+void Display::writeCellPosition(std::pair<int, int> &pos, char val) {
+    int i = ARR_XY(pos.first, pos.second);
+    m_cell[i].val = val;
+    m_cell[i].dirty = true;
 }

@@ -11,11 +11,18 @@
 
 #define DISPLAY_MAX_X 1200
 #define DISPLAY_MAX_Y 800
+#define DISPLAY_SPACING 10
+#define DISPLAY_MAX_ARR ((DISPLAY_MAX_X / DISPLAY_SPACING) * (DISPLAY_MAX_Y / DISPLAY_SPACING))
+
+class Node {
+public:
+    char val;
+    bool dirty;
+};
 
 class Display : public Event {
 public:
     static constexpr std::pair<int, int> maxSize{ DISPLAY_MAX_X, DISPLAY_MAX_Y };
-    static constexpr int spacing = 10;
 
     Display();
     ~Display() override;
@@ -25,9 +32,13 @@ public:
     bool Run();
 
     void OnEvent(SDL_Event& e) override;
+
+    void OnKeyDown(SDL_Scancode key, Uint16 mod) override;
+
     void OnLeftMouseDown(int x, int y) override;
     void OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) override;
-    void OnLeftMouseUp(int x, int y) override;
+    void OnRightMouseDown(int x, int y) override;
+    void OnMouseMoveWithRightButton(int x, int y, int rx, int ry) override;
 
     void OnExit() override;
 
@@ -37,15 +48,17 @@ public:
 
 private:
 
-    void getCellPosition(std::pair<int, int> &pos, int x, int y);
-    void DrawScreen();
+    static void getCellPosition(std::pair<int, int> &pos, int x, int y);
+    void writeCellPosition(std::pair<int, int> & pos, char val);
 
     bool m_running;
 
     SDL_Window *m_window;
     SDL_Renderer *m_render;
 
-    char *m_cell;
+    Node *m_cell;
+    void DrawScreen();
+    void clearCells();
 };
 
 
