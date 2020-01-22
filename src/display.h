@@ -42,7 +42,7 @@ public:
 
     void OnExit() override;
 
-    void DisplayGridOnScreen();
+    void DisplayGridOnScreen(bool d);
 
     void OnDestroy();
 
@@ -52,6 +52,7 @@ private:
     void writeCellPosition(std::pair<int, int> & pos, char val);
 
     bool m_running;
+    bool m_displayGrid;
 
     SDL_Window *m_window;
     SDL_Renderer *m_render;

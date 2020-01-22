@@ -33,6 +33,7 @@ bool Display::OnInit() {
 
     SDL_SetWindowTitle(m_window, "Cellular Automation");
     m_running = true;
+    m_displayGrid = false;
 
     return true;
 }
@@ -41,10 +42,15 @@ bool Display::Run()
 {
     if ( !m_running && !OnInit()) return false;
     SDL_Event event;
+    bool grid = m_displayGrid;
 
     while (m_running) {
         while (SDL_PollEvent(&event)) OnEvent(event);
-        DisplayGridOnScreen();
+        // Only draw the grid if we have to
+        if (grid != m_displayGrid) {
+            DisplayGridOnScreen(m_displayGrid);
+            grid = m_displayGrid;
+        }
         DrawScreen();
         SDL_RenderPresent(m_render);
         SDL_Delay(10);
@@ -53,9 +59,10 @@ bool Display::Run()
     return true;
 }
 
-void Display::DisplayGridOnScreen()
+void Display::DisplayGridOnScreen(bool d)
 {
-    SDL_SetRenderDrawColor(m_render, 3, 152, 252, SDL_ALPHA_OPAQUE);
+    (d) ? SDL_SetRenderDrawColor(m_render, 3, 152, 252, SDL_ALPHA_OPAQUE)
+        : SDL_SetRenderDrawColor(m_render, 0, 0, 0, SDL_ALPHA_OPAQUE);
 
     for (int ix = DISPLAY_SPACING; ix < DISPLAY_MAX_X; ix += DISPLAY_SPACING) {
         SDL_RenderDrawLine(m_render, ix, 0, ix, DISPLAY_MAX_Y);
@@ -143,7 +150,10 @@ void Display::clearCells() {
 }
 
 void Display::OnKeyDown(SDL_Scancode key, Uint16 mod) {
-    if (key == SDL_SCANCODE_C) clearCells();
+    switch (key) {
+        case SDL_SCANCODE_C: clearCells(); break;
+        case SDL_SCANCODE_D: m_displayGrid = !m_displayGrid; break;
+    }
 }
 
 void Display::writeCellPosition(std::pair<int, int> &pos, char val) {
