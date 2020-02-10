@@ -29,7 +29,7 @@ public:
     static constexpr std::pair<int, int> maxSize{ DISPLAY_MAX_X, DISPLAY_MAX_Y };
 
     Display();
-    ~Display() override;
+    ~Display() = default;
 
     bool OnInit();
 
@@ -61,7 +61,7 @@ private:
     SDL_Window *m_window;
     SDL_Renderer *m_render;
 
-    std::vector<Node> m_cell;
+    std::vector<Node> m_cell, *m_curBuf;
     void DrawScreen();
     void clearCells();
 };

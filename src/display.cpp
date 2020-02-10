@@ -5,14 +5,11 @@
 #include "display.h"
 
 
-Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr), m_displayGrid(false)
+Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr),
+                     m_displayGrid(false), m_curBuf(nullptr)
 {
     m_cell.reserve(DISPLAY_MAX_ARR);
     for (int i = 0; i < DISPLAY_MAX_ARR; ++i) m_cell.push_back({0, false} );
-}
-
-Display::~Display()
-{
 }
 
 bool Display::OnInit() {
