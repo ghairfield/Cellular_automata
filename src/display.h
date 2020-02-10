@@ -6,6 +6,7 @@
 #define CELLULAR_AUTOMATA_DISPLAY_H
 
 #include "SDL2/SDL.h"
+#include <vector>
 #include <utility>
 #include "event.h"
 
@@ -60,7 +61,7 @@ private:
     SDL_Window *m_window;
     SDL_Renderer *m_render;
 
-    Node *m_cell;
+    std::vector<Node> m_cell;
     void DrawScreen();
     void clearCells();
 };

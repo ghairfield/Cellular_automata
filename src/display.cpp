@@ -7,13 +7,12 @@
 
 Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr), m_displayGrid(false)
 {
-    m_cell = new Node [DISPLAY_MAX_ARR];
-    clearCells();
+    m_cell.reserve(DISPLAY_MAX_ARR);
+    for (int i = 0; i < DISPLAY_MAX_ARR; ++i) m_cell.push_back({0, false} );
 }
 
 Display::~Display()
 {
-    delete [] m_cell;
 }
 
 bool Display::OnInit() {
@@ -30,7 +29,6 @@ bool Display::OnInit() {
 
     SDL_SetWindowTitle(m_window, "Cellular Automation");
     m_running = true;
-    m_displayGrid = false;
 
     return true;
 }
