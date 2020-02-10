@@ -4,11 +4,8 @@
 
 #include "display.h"
 
-#define ARR_XY(x,y) ((x) + ((y) * (DISPLAY_MAX_X / DISPLAY_SPACING)))
-#define MAX_ARR_X (DISPLAY_MAX_X / DISPLAY_SPACING)
-#define MAX_ARR_Y (DISPLAY_MAX_Y / DISPLAY_SPACING)
 
-Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr)
+Display::Display() : m_running(false), m_window(nullptr), m_render(nullptr), m_displayGrid(false)
 {
     m_cell = new Node [DISPLAY_MAX_ARR];
     clearCells();
@@ -79,7 +76,7 @@ void Display::DrawScreen() {
         for (int iy = 0; iy < MAX_ARR_Y; ++iy) {
             if (m_cell[ARR_XY(ix, iy)].dirty) {
                 r = {(ix * DISPLAY_SPACING + 2), (iy * DISPLAY_SPACING + 2), 7, 7};
-                if (m_cell[ARR_XY(ix, iy)].val != 0) {
+                if (m_cell[ARR_XY(ix, iy)].val != 0) { // Why 0??
                     SDL_SetRenderDrawColor(m_render, 255, 11, 0, SDL_ALPHA_OPAQUE);
                     m_cell[ARR_XY(ix, iy)].dirty = false;
 //                  SDL_RenderFillRect(m_render, &r);
@@ -152,7 +149,7 @@ void Display::clearCells() {
 void Display::OnKeyDown(SDL_Scancode key, Uint16 mod) {
     switch (key) {
         case SDL_SCANCODE_C: clearCells(); break;
-        case SDL_SCANCODE_D: m_displayGrid = !m_displayGrid; break;
+        case SDL_SCANCODE_G: m_displayGrid = !m_displayGrid; break;
     }
 }
 
