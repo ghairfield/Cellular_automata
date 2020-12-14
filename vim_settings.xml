@@ -98,12 +98,11 @@
         <mark key="." line="23" column="14" />
         <mark key="^" line="19" column="52" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607951258698">
-        <mark key="'" line="154" column="0" />
-        <mark key="[" line="63" column="44" />
-        <mark key="]" line="64" column="29" />
-        <mark key="." line="64" column="28" />
-        <mark key="^" line="64" column="29" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607952838813">
+        <mark key="'" line="165" column="0" />
+        <mark key="[" line="12" column="69" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -133,12 +132,12 @@
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607951283695">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607952606114">
         <mark key="'" line="98" column="0" />
-        <mark key="[" line="59" column="22" />
-        <mark key="]" line="62" column="68" />
-        <mark key="^" line="62" column="68" />
-        <mark key="." line="62" column="67" />
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="^" line="67" column="21" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -289,8 +288,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>configElementExpectedValue</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -302,16 +301,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>configElementExpectedValue</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGNvbmZpZ0VsZW1lbnQgJiBnZXRDb25maWdFbGVtZW50KGNvbnN0IHN0ZDo6c3RyaW5nICZrZXkpOwo=</text>
+        <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -342,28 +341,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uZmlnRWxlbWVudEV4cGVjdGVkVmFsdWUgY29uZmlnRmFpbGVkVHlwZSA9IHsiZmFpbGVkIiwgQ09ORklHVFlQRV9OT05FfTsK</text>
+        <text encoding="base64">fTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZhaWxlZENvbmZpZyA9IGNvbmZpZ0ZhaWxlZFR5cGU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pID0gLTF9Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbmZpZ0VsZW1lbnQgZmFpbGVkQ29uZmlnOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0gCg==</text>
+        <text encoding="base64">ICAgIC8vIFRPRE86IElmIG5vdCBmb3VuZCwgbm90aWZ5IHVzZXIKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y29uc3QgZmFpbGVkQ29uZmlnVHlwZSA9IHsiZmFpbGVkIiwgQ09ORklHVFlQRV9OT05FfQo=</text>
+        <text encoding="base64">ICAgIGNvbmZpZ0ZhaWxlZFR5cGUua2V5IGRkPSBwaXR5X2FsbG9jKHN0ZDo6c3RybGVuKENPTlNUQU5UX0ZBSUxFRF9TVFIpICsgMSk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0K</text>
+        <text encoding="base64">I2RlZmluZSAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB7InJvb3QiLCBDT05GSUdUWVBFX1NUUklOR30sCn07Cg==</text>
+        <text encoding="base64">ICAgIC8qIElmIG5vIGNvbmZpZwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0K</text>
+        <text encoding="base64">ICAgIGNvbmZpZ0VsZW1lbnQgY29uZmlnRmFpbGVkVHlwZTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
