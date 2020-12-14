@@ -125,12 +125,12 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607935674951">
+      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607936953761">
         <mark key="'" line="46" column="0" />
-        <mark key="[" line="29" column="60" />
-        <mark key="]" line="29" column="60" />
-        <mark key="^" line="29" column="60" />
-        <mark key="." line="29" column="59" />
+        <mark key="[" line="36" column="74" />
+        <mark key="]" line="36" column="53" />
+        <mark key="^" line="36" column="53" />
+        <mark key="." line="36" column="52" />
       </file>
       <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/event.cpp" timestamp="1596859302004">
         <mark key="'" line="23" column="36" />
@@ -160,11 +160,11 @@
         <mark key="." line="24" column="55" />
         <mark key="^" line="24" column="56" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.cpp" timestamp="1607933629947">
-        <mark key="[" line="31" column="15" />
-        <mark key="]" line="13" column="38" />
-        <mark key="." line="13" column="37" />
-        <mark key="^" line="13" column="38" />
+      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.cpp" timestamp="1607936720801">
+        <mark key="[" line="22" column="5" />
+        <mark key="]" line="23" column="38" />
+        <mark key="." line="23" column="37" />
+        <mark key="^" line="23" column="38" />
       </file>
     </filemarks>
     <jumps>
@@ -266,10 +266,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>/</text>
+        <text>*</text>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text>*</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0YnVmXD4=</text>
