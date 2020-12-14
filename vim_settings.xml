@@ -8,6 +8,7 @@
         <entry>Run</entry>
         <entry encoding="base64">XDxjbGVhckNlbGxzXD4=</entry>
         <entry encoding="base64">XDxuZXh0YnVmXD4=</entry>
+        <entry encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wa</entry>
@@ -54,11 +55,11 @@
         <mark key="^" line="6" column="9" />
         <mark key="." line="6" column="8" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/server.cpp" timestamp="1607949286401">
-        <mark key="[" line="24" column="51" />
-        <mark key="]" line="24" column="51" />
-        <mark key="^" line="24" column="56" />
-        <mark key="." line="24" column="51" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/server.cpp" timestamp="1607950028710">
+        <mark key="[" line="20" column="21" />
+        <mark key="]" line="20" column="23" />
+        <mark key="^" line="20" column="23" />
+        <mark key="." line="20" column="22" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/server.cpp" timestamp="1607948894027">
         <mark key="[" line="3" column="0" />
@@ -72,12 +73,6 @@
         <mark key="[" line="26" column="40" />
         <mark key="]" line="26" column="41" />
         <mark key="." line="26" column="41" />
-      </file>
-      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/node.h" timestamp="1603351870258">
-        <mark key="[" line="10" column="34" />
-        <mark key="]" line="11" column="45" />
-        <mark key="." line="11" column="45" />
-        <mark key="^" line="11" column="45" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/pity.conf" timestamp="1607946425517">
         <mark key="[" line="4" column="12" />
@@ -103,12 +98,12 @@
         <mark key="." line="23" column="14" />
         <mark key="^" line="19" column="52" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607948546537">
-        <mark key="'" line="12" column="31" />
-        <mark key="[" line="74" column="63" />
-        <mark key="]" line="75" column="50" />
-        <mark key="^" line="75" column="50" />
-        <mark key="." line="75" column="49" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607951258698">
+        <mark key="'" line="154" column="0" />
+        <mark key="[" line="63" column="44" />
+        <mark key="]" line="64" column="29" />
+        <mark key="." line="64" column="28" />
+        <mark key="^" line="64" column="29" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -117,12 +112,11 @@
         <mark key="." line="74" column="58" />
         <mark key="^" line="74" column="59" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607949126335">
-        <mark key="'" line="18" column="0" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="79" column="5" />
-        <mark key="^" line="19" column="33" />
-        <mark key="." line="19" column="32" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607949485919">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+        <mark key="^" line="8" column="21" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -130,15 +124,21 @@
         <mark key="." line="16" column="9" />
         <mark key="^" line="17" column="13" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/server.h" timestamp="1607949450542">
+        <mark key="[" line="7" column="32" />
+        <mark key="]" line="7" column="33" />
+        <mark key="^" line="7" column="33" />
+        <mark key="." line="7" column="32" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607948115812">
-        <mark key="'" line="14" column="0" />
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="74" column="66" />
-        <mark key="^" line="74" column="46" />
-        <mark key="." line="71" column="40" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607951283695">
+        <mark key="'" line="98" column="0" />
+        <mark key="[" line="59" column="22" />
+        <mark key="]" line="62" column="68" />
+        <mark key="^" line="62" column="68" />
+        <mark key="." line="62" column="67" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -157,31 +157,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
-      <jump line="29" column="3" filename="$USER_HOME$/Programming/C++/FP202/main.cpp" />
-      <jump line="80" column="7" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
-      <jump line="3" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
-      <jump line="7" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
-      <jump line="12" column="42" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="9" column="14" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="28" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="28" column="27" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
-      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
-      <jump line="34" column="8" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
-      <jump line="1" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
-      <jump line="24" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="6" column="24" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="72" column="2" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="73" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="99" column="3" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="18" column="20" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="19" column="3" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="142" column="15" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="39" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="84" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="68" column="66" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="70" column="23" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="56" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="94" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="79" column="12" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
@@ -255,8 +230,33 @@
       <jump line="13" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
       <jump line="21" column="20" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
       <jump line="50" column="49" filename="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" />
-      <jump line="12" column="31" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
       <jump line="18" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" />
+      <jump line="1" column="6" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="70" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
+      <jump line="203" column="22" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="3" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="7" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="17" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="27" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="36" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="53" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="59" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="67" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="70" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="78" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="81" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="90" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="102" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="108" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="120" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="110" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="199" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="12" column="8" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="22" column="8" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="54" column="42" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
+      <jump line="98" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
+      <jump line="152" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -290,7 +290,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>8</text>
+        <text>configElementExpectedValue</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -302,16 +302,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>8</text>
+        <text>configElementExpectedValue</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxuZXh0YnVmXD4=</text>
+        <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGludCBjLCBkZWJ1ZyA9IDAsIGVyciA9IDA7CiAgICBzdGQ6OnN0cmluZyBjb25maWdGaWxlID0gIi4uL3BpdHkuY29uZiI7CiAgICBpbnQgcG9ydE51bWJlciA9IDgwMDA7CgogICAgd2hpbGUgKChjID0gZ2V0b3B0KGFyZ2MsIGFyZ3YsICJwOmM6ZCIpKSAhPSAtMSkgewogICAgICAgIHN3aXRjaCAoYykgewogICAgICAgICAgICBjYXNlICdwJzoKICAgICAgICAgICAgICAgIHN0ZDo6ZnByaW50ZihzdGRvdXQsICJEaWQgd2UgbWFrZSBpdD8iKTsKICAgICAgICAgICAgICAgIHBvcnROdW1iZXIgPSBzdGQ6OmF0b2kob3B0YXJnKTsKICAgICAgICAgICAgICAgIGlmIChwb3J0TnVtYmVyIDwgMCB8fCBwb3J0TnVtYmVyID4gMzIwMDApIHsKICAgICAgICAgICAgICAgICAgICBzdGQ6OmZwcmludGYoc3Rkb3V0LCAiUG9ydCBudW1iZXIgbmVlZHMgdG8gYmUgdmFsaWQuXG4iKTsKICAgICAgICAgICAgICAgICAgICBlcnIgPSAxOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIGNhc2UgJ2MnOgogICAgICAgICAgICAgICAgY29uZmlnRmlsZS5hc3NpZ24ob3B0YXJnKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlICdkJzoKICAgICAgICAgICAgICAgIGRlYnVnID0gMTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlICc/JzoKICAgICAgICAgICAgICAgIGVyciA9IDE7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgIH0KCiAgICBpZiAoZXJyKSB7CiAgICAgICAgc3RkOjpmcHJpbnRmKHN0ZG91dCwgdXNhZ2UsIGFyZ3ZbMF0pOwogICAgICAgIGV4aXQoRVhJVF9GQUlMVVJFKTsKICAgIH0KCiAgICAvKgogICAgc3RkOjpjb3V0IDw8ICJQb3J0IG51bWJlcjogIiA8PCBwb3J0TnVtYmVyIDw8ICIgRGVidWcgPSAiIDw8IGRlYnVnCiAgICAgICAgICAgICAgICA8PCAiIEVycm9yOiAiIDw8IGVyciA8PCBzdGQ6OmVuZGw7CiAgICAgICAgICAgICAgICAqLwoKICAgIGNvbmZpZyBjb25mKGNvbmZpZ0ZpbGUpOwogICAgc3RkOjp2ZWN0b3I8Y29uZmlnRWxlbWVudD4gY2UgPSBjb25mLmNvbmZpZ0R1bXAoKTsKCiAgICBmb3IgKGNvbmZpZ0VsZW1lbnQgY29uc3QgJmUgOiBjZSkgewogICAgICAgIHN0ZDo6Y291dCA8PCAiS2V5OiAiIDw8IGUua2V5IDw8ICIgLS0gVmFsdWU6ICI7CiAgICAgICAgc3dpdGNoIChlLnR5cGUpIHsKICAgICAgICAgICAgY2FzZSBDT05GSUdUWVBFX0lOVDoKICAgICAgICAgICAgICAgIHN0ZDo6Y291dCA8PCBlLnZhbHVlLmk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSBDT05GSUdUWVBFX0ZMT0FUOgogICAgICAgICAgICAgICAgc3RkOjpjb3V0IDw8IGUudmFsdWUuZjsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfU1RSSU5HOgogICAgICAgICAgICAgICAgc3RkOjpjb3V0IDw8IGUudmFsdWUuczsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfQ0hBUjoKICAgICAgICAgICAgICAgIHN0ZDo6Y291dCA8PCBlLnZhbHVlLmM7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgY2FzZSBDT05GSUdUWVBFX1RJTUVfVDoKICAgICAgICAgICAgICAgIHN0ZDo6Y291dCA8PCBlLnZhbHVlLnQ7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgc3RkOjpjb3V0IDw8ICIgXG4iOwogICAgfQo=</text>
+        <text encoding="base64">ICAgIGNvbmZpZ0VsZW1lbnQgJiBnZXRDb25maWdFbGVtZW50KGNvbnN0IHN0ZDo6c3RyaW5nICZrZXkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -342,28 +342,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uZmlnRWxlbWVudEV4cGVjdGVkVmFsdWUgY29uZmlnRmFpbGVkVHlwZSA9IHsiZmFpbGVkIiwgQ09ORklHVFlQRV9OT05FfTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGZhaWxlZENvbmZpZyA9IGNvbmZpZ0ZhaWxlZFR5cGU7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">c3RkOjpjb3V0IDw8ICJQb3J0IG51bWJlcjogIiA8PCBwb3J0TnVtYmVyIDw8ICIgRGVidWcgPSAiIDw8IGRlYnVnCiAgICAgICAgICAgICAgICA8PCAiIEVycm9yOiAiIDw8IGVyciA8PCBzdGQ6OmVuZGw7Cg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNvbmZpZ0VsZW1lbnQgZmFpbGVkQ29uZmlnOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0gCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Y29uc3QgZmFpbGVkQ29uZmlnVHlwZSA9IHsiZmFpbGVkIiwgQ09ORklHVFlQRV9OT05FfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHsiaG9zdCIsIENPTkZJR1RZUEVfU1RSSU5HfSwK</text>
+        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
+        <text encoding="base64">ICAgICAgICB7InJvb3QiLCBDT05GSUdUWVBFX1NUUklOR30sCn07Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB7InBvcnQiLCBDT05GSUdUWVBFX0lOVH0sCg==</text>
+        <text encoding="base64">ICAgICAgICB7ImZhaWxlZCIsIENPTkZJR1RZUEVfTk9ORX0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -372,9 +372,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxuZXh0YnVmXD4=</last-search>
+      <last-search encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxuZXh0YnVmXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
