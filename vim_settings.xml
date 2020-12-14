@@ -77,13 +77,6 @@
         <mark key="." line="56" column="53" />
         <mark key="^" line="56" column="53" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Node.h" timestamp="1581592485915">
-        <mark key="'" line="27" column="0" />
-        <mark key="[" line="19" column="23" />
-        <mark key="]" line="19" column="25" />
-        <mark key="." line="19" column="25" />
-        <mark key="^" line="19" column="25" />
-      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/mem.cpp" timestamp="1607941990633">
         <mark key="[" line="18" column="2" />
         <mark key="]" line="18" column="2" />
@@ -109,12 +102,12 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607943321713">
-        <mark key="'" line="4" column="0" />
-        <mark key="[" line="53" column="28" />
-        <mark key="]" line="98" column="0" />
-        <mark key="." line="98" column="0" />
-        <mark key="^" line="94" column="0" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607944954535">
+        <mark key="'" line="21" column="20" />
+        <mark key="[" line="76" column="5" />
+        <mark key="]" line="76" column="4" />
+        <mark key="." line="76" column="3" />
+        <mark key="^" line="76" column="4" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -130,6 +123,12 @@
         <mark key="^" line="22" column="30" />
         <mark key="." line="23" column="30" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607944868352">
+        <mark key="[" line="38" column="22" />
+        <mark key="]" line="40" column="22" />
+        <mark key="." line="40" column="21" />
+        <mark key="^" line="40" column="22" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607942946820">
         <mark key="[" line="16" column="8" />
         <mark key="]" line="16" column="9" />
@@ -139,12 +138,12 @@
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607943223419">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607943978708">
         <mark key="'" line="13" column="0" />
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="78" column="73" />
-        <mark key="^" line="78" column="25" />
-        <mark key="." line="82" column="0" />
+        <mark key="[" line="77" column="53" />
+        <mark key="]" line="78" column="51" />
+        <mark key="^" line="76" column="49" />
+        <mark key="." line="78" column="45" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -163,7 +162,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="15" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
       <jump line="62" column="46" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
       <jump line="12" column="15" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
       <jump line="48" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
@@ -263,12 +261,13 @@
       <jump line="49" column="11" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
       <jump line="4" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
       <jump line="13" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
+      <jump line="21" column="20" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -280,16 +279,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>Logging</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0YnVmXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHZvaWQgY29uZmlnRXhwZWN0SW50KHN0ZDo6c3RyaW5nJiBwYXJ0LCBzdGQ6OnN0cmluZzo6c2l6ZV90eXBlIHBvcyk7CiAgICB2b2lkIGNvbmZpZ0V4cGVjdEZsb2F0KHN0ZDo6c3RyaW5nICZwYXJ0LCBzdGQ6OnN0cmluZzo6c2l6ZV90eXBlIHBvcyk7CiAgICB2b2lkIGNvbmZpZ0V4cGVjdFN0cmluZyhzdGQ6OnN0cmluZyYgcGFydCwgc3RkOjpzdHJpbmc6OnNpemVfdHlwZSBwb3MpOwogICAgdm9pZCBjb25maWdFeHBlY3RDaGFyKHN0ZDo6c3RyaW5nJiBwYXJ0LCBzdGQ6OnN0cmluZzo6c2l6ZV90eXBlIHBvcyk7CiAgICB2b2lkIGNvbmZpZ0V4cGVjdFRpbWUoc3RkOjpzdHJpbmcmIHBhcnQsIHN0ZDo6c3RyaW5nOjpzaXplX3R5cGUgcG9zKTsK</text>
+      <register name="0" type="4">
+        <text encoding="base64">Y29uc3Qg</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -319,20 +318,20 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">CkNPTkZJR1RZUEVfSU5ULApDT05GSUdUWVBFX0ZMT0FULApDT05GSUdUWVBFX1NUUklORywKQ09ORklHVFlQRV9DSEFSLApDT05GSUdUWVBFX1RJTUVfVCwKQ09ORklHVFlQRV9OT05F</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgampqampqampqampqampqamoK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">LyoKICogTGlzdCBvZiBjb25maWd1cmF0aW9uIGtleTp2YWx1ZXMgdGhhdCB3ZSBleHBlY3Qgd2hlbgogKiByZWFkaW5nIGEgY29uZmlnIGZpbGUgb3IgcmVjZWl2aW5nIGEgY29uZmlnLnNldCBjYWxsCiAqIGZyb20gYSB1c2VyLgogKi8K</text>
+        <text encoding="base64">CkNPTkZJR1RZUEVfSU5ULApDT05GSUdUWVBFX0ZMT0FULApDT05GSUdUWVBFX1NUUklORywKQ09ORklHVFlQRV9DSEFSLApDT05GSUdUWVBFX1RJTUVfVCwKQ09ORklHVFlQRV9OT05F</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">LyoKICogTGlzdCBvZiBjb25maWd1cmF0aW9uIGtleTp2YWx1ZXMgdGhhdCB3ZSBleHBlY3Qgd2hlbgogKiByZWFkaW5nIGEgY29uZmlnIGZpbGUgb3IgcmVjZWl2aW5nIGEgY29uZmlnLnNldCBjYWxsCiAqIGZyb20gYSB1c2VyLgogKi8K</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
