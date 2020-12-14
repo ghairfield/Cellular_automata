@@ -98,12 +98,11 @@
         <mark key="." line="23" column="14" />
         <mark key="^" line="19" column="52" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607954567653">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607985279052">
         <mark key="'" line="165" column="0" />
-        <mark key="[" line="12" column="11" />
-        <mark key="]" line="12" column="38" />
-        <mark key="." line="12" column="37" />
-        <mark key="^" line="12" column="38" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -133,12 +132,12 @@
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607953708478">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607985297132">
         <mark key="'" line="98" column="0" />
-        <mark key="[" line="30" column="16" />
-        <mark key="]" line="23" column="25" />
-        <mark key="^" line="23" column="25" />
-        <mark key="." line="23" column="24" />
+        <mark key="[" line="66" column="0" />
+        <mark key="]" line="66" column="0" />
+        <mark key="^" line="67" column="22" />
+        <mark key="." line="66" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -289,8 +288,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">WyZdKCkgLT4gYm9vbAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzd2l0Y2ggKHRoaXMtPnR5cGUpIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfTk9ORSA9PSAoY29uZmlnVHlwZSkgb3RoZXIudmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTs=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -302,7 +301,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>&quot;FAILED&quot;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
@@ -310,8 +309,8 @@
       <register name="0" type="2">
         <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">WyZdKCkgLT4gYm9vbAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzd2l0Y2ggKHRoaXMtPnR5cGUpIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfTk9ORSA9PSAoY29uZmlnVHlwZSkgb3RoZXIudmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTs=</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -341,29 +340,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">Y29uc3QgY29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0gIHsKICAgICAgICAua2V5ID0gbnVsbHB0ciwKICAgICAgICAudHlwZSA9IENPTkZJR1RZUEVfTk9ORSwKICAgICAgICAudmFsdWUuaSA9IC0xCn07Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">fTsK</text>
+        <text encoding="base64">ICAgIGNvbmZpZ0ZhaWxlZFR5cGUgPSB7bnVsbHB0ciwgQ09ORklHVFlQRV9OT05FLCAtMX07Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pID0gLTF9Owo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">WyZdKCkgLT4gYm9vbAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzd2l0Y2ggKHRoaXMtPnR5cGUpIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfTk9ORSA9PSAoY29uZmlnVHlwZSkgb3RoZXIudmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTs=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE86IElmIG5vdCBmb3VuZCwgbm90aWZ5IHVzZXIKCg==</text>
+        <text encoding="base64">fTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGNvbmZpZ0ZhaWxlZFR5cGUua2V5IGRkPSBwaXR5X2FsbG9jKHN0ZDo6c3RybGVuKENPTlNUQU5UX0ZBSUxFRF9TVFIpICsgMSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pID0gLTF9Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">I2RlZmluZSAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8qIElmIG5vIGNvbmZpZwo=</text>
+        <text encoding="base64">ICAgIC8vIFRPRE86IElmIG5vdCBmb3VuZCwgbm90aWZ5IHVzZXIKCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
