@@ -77,6 +77,12 @@
         <mark key="." line="56" column="53" />
         <mark key="^" line="56" column="53" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/HTTPity/pity.conf" timestamp="1607946425517">
+        <mark key="[" line="4" column="12" />
+        <mark key="]" line="4" column="16" />
+        <mark key="^" line="4" column="16" />
+        <mark key="." line="4" column="15" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/mem.cpp" timestamp="1607941990633">
         <mark key="[" line="18" column="2" />
         <mark key="]" line="18" column="2" />
@@ -102,12 +108,12 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607945192705">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607946740455">
         <mark key="'" line="21" column="20" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="22" />
-        <mark key="." line="31" column="21" />
-        <mark key="^" line="31" column="22" />
+        <mark key="[" line="26" column="1" />
+        <mark key="]" line="40" column="22" />
+        <mark key="." line="40" column="21" />
+        <mark key="^" line="40" column="22" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -116,18 +122,11 @@
         <mark key="." line="74" column="58" />
         <mark key="^" line="74" column="59" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/event.cpp" timestamp="1596859302004">
-        <mark key="'" line="23" column="36" />
-        <mark key="[" line="23" column="30" />
-        <mark key="]" line="23" column="30" />
-        <mark key="^" line="22" column="30" />
-        <mark key="." line="23" column="30" />
-      </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607944868352">
-        <mark key="[" line="38" column="22" />
-        <mark key="]" line="40" column="22" />
-        <mark key="." line="40" column="21" />
-        <mark key="^" line="40" column="22" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607946392088">
+        <mark key="[" line="19" column="30" />
+        <mark key="]" line="19" column="33" />
+        <mark key="^" line="19" column="33" />
+        <mark key="." line="19" column="32" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -138,12 +137,12 @@
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607945549382">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607946487859">
         <mark key="'" line="14" column="0" />
-        <mark key="[" line="49" column="0" />
-        <mark key="]" line="49" column="36" />
-        <mark key="^" line="44" column="23" />
-        <mark key="." line="49" column="0" />
+        <mark key="[" line="67" column="46" />
+        <mark key="]" line="68" column="14" />
+        <mark key="^" line="68" column="14" />
+        <mark key="." line="68" column="13" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -162,7 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="46" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
       <jump line="12" column="15" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
       <jump line="48" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
       <jump line="82" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
@@ -262,12 +260,13 @@
       <jump line="4" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
       <jump line="13" column="0" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.h" />
       <jump line="21" column="20" filename="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" />
+      <jump line="50" column="49" filename="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
+      <register name="&quot;" type="4">
+        <text>2048100</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -279,16 +278,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>/* Configuration value */</text>
+        <text>2048100</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0YnVmXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Y29uc3Qg</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0ZDo6Y291dCA8PCBlLnZhbHVlLmk7CiAgICAgICAgICAgICAgICBicmVhazsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -318,30 +317,26 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB7InBvcnQiLCBDT05GSUdUWVBFX0lOVH0sCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">c3RkOjpjb3V0IDw8ICJQb3J0IG51bWJlcjogIiA8PCBwb3J0TnVtYmVyIDw8ICIgRGVidWcgPSAiIDw8IGRlYnVnCiAgICAgICAgICAgICAgICA8PCAiIEVycm9yOiAiIDw8IGVyciA8PCBzdGQ6OmVuZGw7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB7Im1heF9jb25uZWN0aW9ucyIsIENPTkZJR1RZUEVfSU5UfSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="5" type="4">
-        <text>/*
- * List of configuration key:values that we expect when
- * reading a config file or receiving a config.set call
- * from a user.
- */</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHsiaG9zdCIsIENPTkZJR1RZUEVfU1RSSU5HfSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB7bnVsbHB0ciwgQ09ORklHVFlQRV9OT05FfQo=</text>
+        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICB7InBvcnQiLCBDT05GSUdUWVBFX0lOVH0sCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgampqampqampqampqampqamoK</text>
+        <text encoding="base64">ICAgICAgICB7Im1heF9jb25uZWN0aW9ucyIsIENPTkZJR1RZUEVfSU5UfSwK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
