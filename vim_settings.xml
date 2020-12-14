@@ -102,12 +102,12 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607944954535">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607945192705">
         <mark key="'" line="21" column="20" />
-        <mark key="[" line="76" column="5" />
-        <mark key="]" line="76" column="4" />
-        <mark key="." line="76" column="3" />
-        <mark key="^" line="76" column="4" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="22" />
+        <mark key="." line="31" column="21" />
+        <mark key="^" line="31" column="22" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.h" timestamp="1607941100951">
         <mark key="'" line="48" column="17" />
@@ -129,7 +129,7 @@
         <mark key="." line="40" column="21" />
         <mark key="^" line="40" column="22" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607942946820">
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
         <mark key="]" line="16" column="9" />
         <mark key="." line="16" column="9" />
@@ -138,12 +138,12 @@
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607943978708">
-        <mark key="'" line="13" column="0" />
-        <mark key="[" line="77" column="53" />
-        <mark key="]" line="78" column="51" />
-        <mark key="^" line="76" column="49" />
-        <mark key="." line="78" column="45" />
+      <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607945549382">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="36" />
+        <mark key="^" line="44" column="23" />
+        <mark key="." line="49" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
       <file name="$USER_HOME$/Programming/C++/HTTPitty/src/main.cpp" timestamp="1607923558982">
@@ -266,8 +266,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -279,7 +279,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Logging</text>
+        <text>/* Configuration value */</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0YnVmXD4=</text>
@@ -287,8 +287,8 @@
       <register name="0" type="4">
         <text encoding="base64">Y29uc3Qg</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB7Imhvc3QiLCBDT05GSUdUWVBFX1NUUklOR30sCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -319,25 +319,29 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgampqampqampqampqampqamoK</text>
+        <text encoding="base64">ICAgICAgICB7InBvcnQiLCBDT05GSUdUWVBFX0lOVH0sCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB7Im1heF9jb25uZWN0aW9ucyIsIENPTkZJR1RZUEVfSU5UfSwK</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">CkNPTkZJR1RZUEVfSU5ULApDT05GSUdUWVBFX0ZMT0FULApDT05GSUdUWVBFX1NUUklORywKQ09ORklHVFlQRV9DSEFSLApDT05GSUdUWVBFX1RJTUVfVCwKQ09ORklHVFlQRV9OT05F</text>
+      <register name="5" type="4">
+        <text>/*
+ * List of configuration key:values that we expect when
+ * reading a config file or receiving a config.set call
+ * from a user.
+ */</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB7bnVsbHB0ciwgQ09ORklHVFlQRV9OT05FfQo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">LyoKICogTGlzdCBvZiBjb25maWd1cmF0aW9uIGtleTp2YWx1ZXMgdGhhdCB3ZSBleHBlY3Qgd2hlbgogKiByZWFkaW5nIGEgY29uZmlnIGZpbGUgb3IgcmVjZWl2aW5nIGEgY29uZmlnLnNldCBjYWxsCiAqIGZyb20gYSB1c2VyLgogKi8K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICItYyAgICAgICAgIC0gTG9hZCBjb25maWd1cmF0aW9uIGZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiLWQgICAgICAgICAtIFNldCBkZWJ1ZyBvblxuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIi1wICAgICAgICAgLSBTZXQgcG9ydG51bWJlciAoRGVmYXVsdCA4MClcbiI7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgampqampqampqampqampqamoK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
