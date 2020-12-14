@@ -105,16 +105,17 @@
         <mark key="." line="19" column="25" />
         <mark key="^" line="19" column="25" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/mem.cpp" timestamp="1607940133261">
-        <mark key="[" line="15" column="1" />
-        <mark key="]" line="20" column="19" />
+      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/mem.cpp" timestamp="1607941990633">
+        <mark key="[" line="18" column="2" />
+        <mark key="]" line="18" column="2" />
         <mark key="^" line="20" column="19" />
-        <mark key="." line="20" column="18" />
+        <mark key="." line="18" column="2" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/CONTRIBUTING" timestamp="1607941731725">
-        <mark key="[" line="0" column="79" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Programming/C++/HTTPitty/CONTRIBUTING" timestamp="1607941960946">
+        <mark key="[" line="0" column="17" />
+        <mark key="]" line="0" column="17" />
+        <mark key="." line="0" column="17" />
+        <mark key="^" line="3" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" timestamp="1596859461490">
         <mark key="'" line="24" column="15" />
@@ -264,11 +265,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>t</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>t</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0YnVmXD4=</text>
