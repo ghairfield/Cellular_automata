@@ -1,6 +1,23 @@
 <application>
-  <component name="VimSettings">
-    <state version="5" enabled="true" />
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>Run</entry>
+        <entry encoding="base64">XDxjbGVhckNlbGxzXD4=</entry>
+        <entry encoding="base64">XDxuZXh0YnVmXD4=</entry>
+      </history-search>
+      <history-cmd>
+        <entry>wa</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed G</text>
@@ -27,7 +44,277 @@
         <text>ctrl pressed W</text>
       </shortcut-conflict>
     </shortcut-conflicts>
-    <editor />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/GDB" timestamp="1580209539822">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1581337386367">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" timestamp="1581336534105">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="20" column="44" />
+        <mark key="]" line="21" column="44" />
+        <mark key="." line="21" column="44" />
+        <mark key="^" line="21" column="44" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Node.h" timestamp="1581592485915">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="19" column="23" />
+        <mark key="]" line="19" column="25" />
+        <mark key="." line="19" column="25" />
+        <mark key="^" line="19" column="25" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/CMakeLists.txt" timestamp="1579579510404">
+        <mark key="[" line="9" column="76" />
+        <mark key="]" line="9" column="76" />
+        <mark key="^" line="10" column="56" />
+        <mark key="." line="9" column="76" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/CMakeLists.txt" timestamp="1581588102388">
+        <mark key="[" line="10" column="39" />
+        <mark key="]" line="10" column="39" />
+        <mark key="." line="10" column="39" />
+        <mark key="^" line="11" column="49" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" timestamp="1596859461490">
+        <mark key="'" line="24" column="15" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="38" column="0" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/node.h" timestamp="1603351870258">
+        <mark key="[" line="10" column="34" />
+        <mark key="]" line="11" column="45" />
+        <mark key="." line="11" column="45" />
+        <mark key="^" line="11" column="45" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/main.cpp" timestamp="1581327685167">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/event.cpp" timestamp="1596859302004">
+        <mark key="'" line="23" column="36" />
+        <mark key="[" line="23" column="30" />
+        <mark key="]" line="23" column="30" />
+        <mark key="^" line="22" column="30" />
+        <mark key="." line="23" column="30" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" timestamp="1603351820979">
+        <mark key="'" line="30" column="22" />
+        <mark key="[" line="56" column="53" />
+        <mark key="]" line="56" column="53" />
+        <mark key="." line="56" column="53" />
+        <mark key="^" line="56" column="53" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" timestamp="1581586690966">
+        <mark key="'" line="5" column="1" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="59" column="1" />
+        <mark key="." line="60" column="2" />
+        <mark key="^" line="60" column="2" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Event.cpp" timestamp="1581591756976">
+        <mark key="[" line="44" column="22" />
+        <mark key="]" line="45" column="20" />
+        <mark key="." line="45" column="20" />
+        <mark key="^" line="45" column="20" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" timestamp="1581592467648">
+        <mark key="'" line="23" column="0" />
+        <mark key="[" line="88" column="30" />
+        <mark key="]" line="88" column="31" />
+        <mark key="." line="88" column="31" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/main.cpp" timestamp="1581589104658">
+        <mark key="[" line="5" column="42" />
+        <mark key="]" line="6" column="12" />
+        <mark key="^" line="6" column="12" />
+        <mark key="." line="6" column="12" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/README.md" timestamp="1579736324859">
+        <mark key="[" line="5" column="31" />
+        <mark key="]" line="5" column="28" />
+        <mark key="^" line="5" column="28" />
+        <mark key="." line="5" column="63" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/event.h" timestamp="1581323988939">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="60" />
+        <mark key="." line="25" column="71" />
+        <mark key="^" line="25" column="71" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/Visualizer/src/Event.h" timestamp="1581591660331">
+        <mark key="[" line="25" column="53" />
+        <mark key="]" line="25" column="53" />
+        <mark key="." line="25" column="53" />
+        <mark key="^" line="28" column="58" />
+      </file>
+      <file name="$USER_HOME$/Programming/C++/HTTPitty/main.cpp" timestamp="1607915856615" />
+      <file name="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" timestamp="1581337274034">
+        <mark key="'" line="71" column="16" />
+        <mark key="[" line="147" column="4" />
+        <mark key="]" line="82" column="31" />
+        <mark key="^" line="82" column="31" />
+        <mark key="." line="82" column="31" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="30" column="28" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
+      <jump line="24" column="11" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="31" column="4" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="24" column="15" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
+      <jump line="62" column="46" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="12" column="15" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="48" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="82" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="29" column="3" filename="$USER_HOME$/Programming/C++/FP202/main.cpp" />
+      <jump line="80" column="7" filename="$USER_HOME$/Programming/C++/FP202/BST.cpp" />
+      <jump line="3" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
+      <jump line="7" column="0" filename="$USER_HOME$/Programming/C++/FP202/BST.h" />
+      <jump line="12" column="42" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="9" column="14" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="28" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="28" column="27" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
+      <jump line="34" column="8" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
+      <jump line="1" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
+      <jump line="24" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="6" column="24" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="72" column="2" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="73" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="99" column="3" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="18" column="20" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="19" column="3" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="142" column="15" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="39" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="84" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="68" column="66" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="70" column="23" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="56" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="94" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="79" column="12" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="82" column="8" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="74" column="113" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="86" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="132" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="23" column="36" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/event.cpp" />
+      <jump line="95" column="45" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="87" column="20" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="33" column="62" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="45" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="32" column="46" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="9" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="105" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="101" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="11" column="14" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="77" column="39" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="52" column="18" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="10" column="6" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="16" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="39" column="29" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="45" column="32" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="26" column="36" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="46" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="24" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="46" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="18" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="65" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="120" column="3" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="10" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="121" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="64" column="14" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="58" column="44" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="27" column="15" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.h" />
+      <jump line="115" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="21" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
+      <jump line="71" column="16" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
+      <jump line="30" column="22" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
+      <jump line="0" column="0" filename="/Dummy.txt" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+      <jump line="15" column="54" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="64" column="29" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="25" column="37" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="43" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="27" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Node.h" />
+      <jump line="53" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="5" column="1" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.cpp" />
+      <jump line="25" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+      <jump line="58" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+      <jump line="10" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+      <jump line="26" column="11" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+      <jump line="22" column="0" filename="$USER_HOME$/Programming/C++/Visualizer/src/Display.h" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="-" type="4">
+        <text>r</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxuZXh0YnVmXD4=</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc3dpdGNoICh0LmJ1dHRvbi53aGljaCkgewogICAgICAgICAgICAgICAgY2FzZSBTRExfQlVUVE9OX0xFRlQ6CiAgICAgICAgICAgICAgICAgICAgbUxlZnREb3duID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICBPbkxlZnRNb3VzZURvd24odC5idXR0b24ueCwgdC5idXR0b24ueSk7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICBjYXNlIFNETF9CVVRUT05fUklHSFQ6CiAgICAgICAgICAgICAgICAgICAgbVJpZ2h0RG93biA9IHRydWU7CiAgICAgICAgICAgICAgICAgICAgT25SaWdodE1vdXNlRG93bih0LmJ1dHRvbi54LCB0LmJ1dHRvbi55KTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGZvciAoOyB4KQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHR5cGVuYW1lIHN0ZDo6dmVjdG9yPE5vZGU8VD4+Ojpjb25zdF9pdGVyYXRvciBpdDsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGZvciAoaXQgPSBtX2N1ckRpc3AtPmJlZ2luKCk7IGl0ICE9IG1fY3VyRGlzcC0+ZW5kKCk7ICsraXQpIHsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoKSAgICAK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGZvciAoKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">dmlydHVhbCB2b2lkIE9uUXVpdCgpIHt9Owo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDxuZXh0YnVmXD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxuZXh0YnVmXD4=</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />
