@@ -86,7 +86,7 @@
         <mark key="." line="23" column="14" />
         <mark key="^" line="19" column="52" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/socket.h" timestamp="1610223621337">
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/socket.h" timestamp="1610223864598">
         <mark key="[" line="27" column="16" />
         <mark key="]" line="27" column="17" />
         <mark key="." line="27" column="17" />
@@ -152,12 +152,11 @@
         <mark key="^" line="67" column="22" />
         <mark key="." line="84" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/src/config.cpp" timestamp="1607941089782">
-        <mark key="'" line="5" column="17" />
-        <mark key="[" line="50" column="33" />
-        <mark key="]" line="50" column="39" />
-        <mark key="^" line="50" column="39" />
-        <mark key="." line="50" column="38" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/socket.cpp" timestamp="1610224303383">
+        <mark key="[" line="38" column="36" />
+        <mark key="]" line="37" column="40" />
+        <mark key="." line="37" column="39" />
+        <mark key="^" line="37" column="40" />
       </file>
     </filemarks>
     <jumps>
@@ -306,7 +305,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>~</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
@@ -345,29 +344,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">I2luY2x1ZGUgPHN5cy90eXBlcy5oPgojaW5jbHVkZSA8c3lzL3NvY2tldC5oPgojaW5jbHVkZSA8bmV0aW5ldC9pbi5oPgojaW5jbHVkZSA8bmV0ZGIuaD4KI2luY2x1ZGUgPHVuaXN0ZC5oPgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8YXJwYS9pbmV0Lmg+Cgo=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIG1lbXNldChtX2FkZHIsIDApCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgIHNlcnZlcihpbnQgcG9ydCk7CiAgICB2aXJ0dWFsIH5zZXJ2ZXIoKTsKCiAgICBib29sIGNyZWF0ZSgpOwogICAgYm9vbCBiaW5kKCk7CiAgICBib29sIGxpc3RlbigpOwogICAgYm9vbCBhY2NlcHQgKHNlcnZlciYpOwoKCnByaXZhdGU6CiAgICBpbnQgbV9wb3J0OwogICAgc29ja2FkZHJfaW4gbV9hZGRyOw==</text>
+      <register name="4" type="2">
+        <text encoding="base64">I2luY2x1ZGUgPHN0cmluZ3MuaD4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJ6ZWRkcm8obV9hZGRyLCBzaXplb2YobV9hZGRyKSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+        <text encoding="base64">ICAgIGJ6ZXJvKCkK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIC8qIEEgdHlwZSB0aGF0IGNhbiBiZSBjb21wYXJlZCB0byBpZiBhIGNvbmZpZyByZXF1ZXN0IGZhaWxlZC4gKi8KICAgIGNvbnN0IGNvbmZpZ0VsZW1lbnQgY29uZmlnRmFpbGVkVHlwZTsK</text>
+      <register name="7" type="4">
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Y29uc3QgY29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0gIHsKICAgICAgICAua2V5ID0gbnVsbHB0ciwKICAgICAgICAudHlwZSA9IENPTkZJR1RZUEVfTk9ORSwKICAgICAgICAudmFsdWUuaSA9IC0xCn07Cg==</text>
+        <text encoding="base64">I2luY2x1ZGUgPHN5cy90eXBlcy5oPgojaW5jbHVkZSA8c3lzL3NvY2tldC5oPgojaW5jbHVkZSA8bmV0aW5ldC9pbi5oPgojaW5jbHVkZSA8bmV0ZGIuaD4KI2luY2x1ZGUgPHVuaXN0ZC5oPgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8YXJwYS9pbmV0Lmg+Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
