@@ -49,12 +49,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/README.md" timestamp="1607923716742">
-        <mark key="[" line="7" column="5" />
-        <mark key="]" line="6" column="9" />
-        <mark key="^" line="6" column="9" />
-        <mark key="." line="6" column="8" />
-      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/server.cpp" timestamp="1610221667118">
         <mark key="[" line="20" column="21" />
         <mark key="]" line="20" column="23" />
@@ -92,6 +86,12 @@
         <mark key="." line="23" column="14" />
         <mark key="^" line="19" column="52" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/socket.h" timestamp="1610223621337">
+        <mark key="[" line="27" column="16" />
+        <mark key="]" line="27" column="17" />
+        <mark key="." line="27" column="17" />
+        <mark key="^" line="27" column="51" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.cpp" timestamp="1607989250204">
         <mark key="'" line="165" column="0" />
         <mark key="[" line="17" column="34" />
@@ -106,11 +106,11 @@
         <mark key="." line="74" column="58" />
         <mark key="^" line="74" column="59" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/server.h" timestamp="1610222948194">
-        <mark key="[" line="21" column="26" />
-        <mark key="]" line="21" column="17" />
-        <mark key="." line="21" column="16" />
-        <mark key="^" line="21" column="17" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/server.h" timestamp="1610223428656">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="8" column="8" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/main.cpp" timestamp="1607949485919">
         <mark key="[" line="4" column="0" />
@@ -136,8 +136,11 @@
         <mark key="^" line="4" column="16" />
         <mark key="." line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" timestamp="1610222300024">
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" timestamp="1610223434165">
         <mark key="[" line="0" column="19" />
+        <mark key="]" line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
         <mark key="[" line="0" column="0" />
@@ -290,8 +293,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>(</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -303,7 +306,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>~</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
@@ -342,29 +345,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text encoding="base64">I2luY2x1ZGUgPHN5cy90eXBlcy5oPgojaW5jbHVkZSA8c3lzL3NvY2tldC5oPgojaW5jbHVkZSA8bmV0aW5ldC9pbi5oPgojaW5jbHVkZSA8bmV0ZGIuaD4KI2luY2x1ZGUgPHVuaXN0ZC5oPgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8YXJwYS9pbmV0Lmg+Cgo=</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIC8qIEEgdHlwZSB0aGF0IGNhbiBiZSBjb21wYXJlZCB0byBpZiBhIGNvbmZpZyByZXF1ZXN0IGZhaWxlZC4gKi8KICAgIGNvbnN0IGNvbmZpZ0VsZW1lbnQgY29uZmlnRmFpbGVkVHlwZTsK</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgIHNlcnZlcihpbnQgcG9ydCk7CiAgICB2aXJ0dWFsIH5zZXJ2ZXIoKTsKCiAgICBib29sIGNyZWF0ZSgpOwogICAgYm9vbCBiaW5kKCk7CiAgICBib29sIGxpc3RlbigpOwogICAgYm9vbCBhY2NlcHQgKHNlcnZlciYpOwoKCnByaXZhdGU6CiAgICBpbnQgbV9wb3J0OwogICAgc29ja2FkZHJfaW4gbV9hZGRyOw==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">Y29uc3QgY29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0gIHsKICAgICAgICAua2V5ID0gbnVsbHB0ciwKICAgICAgICAudHlwZSA9IENPTkZJR1RZUEVfTk9ORSwKICAgICAgICAudmFsdWUuaSA9IC0xCn07Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbmZpZ0ZhaWxlZFR5cGUgPSB7bnVsbHB0ciwgQ09ORklHVFlQRV9OT05FLCAtMX07Cg==</text>
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">WyZdKCkgLT4gYm9vbAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzd2l0Y2ggKHRoaXMtPnR5cGUpIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIENPTkZJR1RZUEVfTk9ORSA9PSAoY29uZmlnVHlwZSkgb3RoZXIudmFsdWU6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTs=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIC8qIEEgdHlwZSB0aGF0IGNhbiBiZSBjb21wYXJlZCB0byBpZiBhIGNvbmZpZyByZXF1ZXN0IGZhaWxlZC4gKi8KICAgIGNvbnN0IGNvbmZpZ0VsZW1lbnQgY29uZmlnRmFpbGVkVHlwZTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">fTsK</text>
+      <register name="9" type="4">
+        <text encoding="base64">Y29uc3QgY29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0gIHsKICAgICAgICAua2V5ID0gbnVsbHB0ciwKICAgICAgICAudHlwZSA9IENPTkZJR1RZUEVfTk9ORSwKICAgICAgICAudmFsdWUuaSA9IC0xCn07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
