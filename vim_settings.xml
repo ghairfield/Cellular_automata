@@ -86,6 +86,12 @@
         <mark key="^" line="17" column="28" />
         <mark key="." line="17" column="27" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610231766958">
+        <mark key="[" line="14" column="7" />
+        <mark key="]" line="19" column="65" />
+        <mark key="^" line="19" column="65" />
+        <mark key="." line="19" column="64" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" timestamp="1610231076463">
         <mark key="'" line="3" column="18" />
         <mark key="[" line="17" column="0" />
@@ -140,9 +146,6 @@
         <mark key="]" line="7" column="33" />
         <mark key="^" line="7" column="33" />
         <mark key="." line="7" column="32" />
-      </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/STYLE" timestamp="1607941164905">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607989258734">
         <mark key="'" line="31" column="0" />
@@ -292,8 +295,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>s</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -305,7 +308,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PCAtMQ==</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
