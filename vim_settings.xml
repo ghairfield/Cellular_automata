@@ -86,11 +86,11 @@
         <mark key="^" line="17" column="28" />
         <mark key="." line="17" column="27" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610231766958">
-        <mark key="[" line="14" column="7" />
-        <mark key="]" line="19" column="65" />
-        <mark key="^" line="19" column="65" />
-        <mark key="." line="19" column="64" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610240040634">
+        <mark key="[" line="33" column="13" />
+        <mark key="]" line="33" column="24" />
+        <mark key="." line="33" column="23" />
+        <mark key="^" line="33" column="24" />
       </file>
       <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" timestamp="1610231076463">
         <mark key="'" line="3" column="18" />
@@ -296,7 +296,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>d</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -308,7 +308,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>d</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
@@ -347,29 +347,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">Y2xhc3MgSFRUUE1ldGhvZAp7CnB1YmxpYzoKICAgIHN0ZDo6c3RyaW5nIG1ldGhvZDsKfTsK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">c2VydmVyOjp+c2VydmVyKCkKewogICAgLyogTm90aGluZyB0byBkbyBzaW5jZSBzb2NrIGlzIHVuaXF1ZV9wdHIgKi8KfQo=</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">c2VydmVyOjp+c2VydmVyKCkKewogICAgLyogTm90aGluZyB0byBkbyBzaW5jZSBzb2NrIGlzIHVuaXF1ZV9wdHIgKi8KfQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHdoaWxlICgxKSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6dW5pcXVlX3B0cjxzb2NrYWRkcl9pbj4gbmV3X2NsaWVudDsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
