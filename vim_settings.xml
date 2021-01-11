@@ -74,12 +74,6 @@
         <mark key="]" line="26" column="41" />
         <mark key="." line="26" column="41" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/HTTPitty/CONTRIBUTING" timestamp="1607941960946">
-        <mark key="[" line="0" column="17" />
-        <mark key="]" line="0" column="17" />
-        <mark key="." line="0" column="17" />
-        <mark key="^" line="3" column="0" />
-      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.h" timestamp="1610221690381">
         <mark key="[" line="23" column="14" />
         <mark key="]" line="23" column="14" />
@@ -110,6 +104,11 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="8" column="21" />
       </file>
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610396788133">
+        <mark key="[" line="5" column="65" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+      </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
         <mark key="]" line="16" column="9" />
@@ -134,11 +133,11 @@
         <mark key="^" line="17" column="28" />
         <mark key="." line="17" column="27" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610394424700">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-        <mark key="^" line="40" column="44" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610396212608">
+        <mark key="[" line="43" column="27" />
+        <mark key="]" line="32" column="7" />
+        <mark key="." line="32" column="6" />
+        <mark key="^" line="32" column="7" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607989258734">
         <mark key="'" line="31" column="0" />
@@ -162,8 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
-      <jump line="23" column="36" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/event.cpp" />
       <jump line="95" column="45" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="87" column="20" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="33" column="62" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
@@ -262,6 +259,8 @@
       <jump line="61" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/socket.cpp" />
       <jump line="27" column="20" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" />
       <jump line="3" column="18" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" />
+      <jump line="6" column="16" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" />
+      <jump line="35" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -294,8 +293,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHMoaGVhZGVyKTsKICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHRtcDsK</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -307,7 +306,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text encoding="base64">Y29uc3Qgc3RkOjpzdHJpbmcgJg==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
@@ -315,8 +314,8 @@
       <register name="0" type="2">
         <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHMoaGVhZGVyKTsKICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHRtcDsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -346,29 +345,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">I2luY2x1ZGUgPG1hcD4K</text>
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGRhdGE7IC8qIERhdGEgdG8gYmUgcGFyc2VkLiAqLwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6bWFwPHN0ZDo6c3RyaW5nLCBzdGQ6OnN0cmluZz4gaGVhZDsgLyogUGFyc2VkIGRhdGEgKi8K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJvb2wgCg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">Y2xhc3MgSFRUUE1ldGhvZAp7CnB1YmxpYzoKICAgIHN0ZDo6c3RyaW5nIG1ldGhvZDsKfTsK</text>
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHN0ZDo6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I2luY2x1ZGUgPG1hcD4K</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">c2VydmVyOjp+c2VydmVyKCkKewogICAgLyogTm90aGluZyB0byBkbyBzaW5jZSBzb2NrIGlzIHVuaXF1ZV9wdHIgKi8KfQo=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6bWFwPHN0ZDo6c3RyaW5nLCBzdGQ6OnN0cmluZz4gaGVhZDsgLyogUGFyc2VkIGRhdGEgKi8K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
