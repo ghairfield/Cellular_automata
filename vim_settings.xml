@@ -295,7 +295,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>d</text>
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -315,8 +315,8 @@
       <register name="0" type="2">
         <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -346,20 +346,20 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Y2xhc3MgSFRUUE1ldGhvZAp7CnB1YmxpYzoKICAgIHN0ZDo6c3RyaW5nIG1ldGhvZDsKfTsK</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I2luY2x1ZGUgPG1hcD4K</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6bWFwPHN0ZDo6c3RyaW5nLCBzdGQ6OnN0cmluZz4gaGVhZDsgLyogUGFyc2VkIGRhdGEgKi8K</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">c2VydmVyOjp+c2VydmVyKCkKewogICAgLyogTm90aGluZyB0byBkbyBzaW5jZSBzb2NrIGlzIHVuaXF1ZV9wdHIgKi8KfQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">Y2xhc3MgSFRUUE1ldGhvZAp7CnB1YmxpYzoKICAgIHN0ZDo6c3RyaW5nIG1ldGhvZDsKfTsK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -367,8 +367,8 @@
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+      <register name="9" type="4">
+        <text encoding="base64">c2VydmVyOjp+c2VydmVyKCkKewogICAgLyogTm90aGluZyB0byBkbyBzaW5jZSBzb2NrIGlzIHVuaXF1ZV9wdHIgKi8KfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
