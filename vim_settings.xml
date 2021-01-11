@@ -104,12 +104,12 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="8" column="21" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610397517625">
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610398445745">
         <mark key="'" line="20" column="0" />
-        <mark key="[" line="20" column="21" />
-        <mark key="]" line="20" column="33" />
-        <mark key="." line="20" column="32" />
-        <mark key="^" line="20" column="33" />
+        <mark key="[" line="10" column="48" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="9" column="22" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -129,11 +129,11 @@
         <mark key="^" line="4" column="16" />
         <mark key="." line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" timestamp="1610393797719">
-        <mark key="[" line="16" column="4" />
-        <mark key="]" line="17" column="28" />
-        <mark key="^" line="17" column="28" />
-        <mark key="." line="17" column="27" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" timestamp="1610398180872">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610397382223">
         <mark key="[" line="35" column="24" />
@@ -164,7 +164,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="62" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
       <jump line="45" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
       <jump line="32" column="46" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
       <jump line="9" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
@@ -264,6 +263,7 @@
       <jump line="35" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" />
       <jump line="19" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
       <jump line="47" column="3" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" />
+      <jump line="24" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -296,8 +296,8 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>i</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc3RkOjpjb3V0IDw8ICJTOiAiIDw8IGkgPDwgIiBFOiAiIDw8IGVuZCA8PCAiIExpbmU6ICIgPDwgaGVhZGVyLnN1YnN0cihpLCBlbmQpIDw8ICJcbiI7Cg==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -318,7 +318,7 @@
         <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHMoaGVhZGVyKTsKICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHRtcDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RkOjpjb3V0IDw8ICJTOiAiIDw8IGkgPDwgIiBFOiAiIDw8IGVuZCA8PCAiIExpbmU6ICIgPDwgaGVhZGVyLnN1YnN0cihpLCBlbmQpIDw8ICJcbiI7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -348,29 +348,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIC8qCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGRhdGE7IC8qIERhdGEgdG8gYmUgcGFyc2VkLiAqLwo=</text>
+        <text encoding="base64">ICAgICovCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nIGggPSAiR0VUIC8gSFRUUC8xLjFcclxuSG9zdDogMTAuMC4wLjE3ODo2MDAxXHJcbmFjY2VwdDogVGFjb3NcclxuIjsKICAgIGhlYWRlcnMgaGVhZChoKTsKICAgIGhlYWQucHJpbnRfaGVhZGVycygpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGJvb2wgCg==</text>
+        <text encoding="base64">ICAgIGhlYWRlcnMK</text>
       </register>
-      <register name="6" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHMoaGVhZGVyKTsKICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHRtcDsK</text>
+      </register>
+      <register name="7" type="4">
         <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6Cg==</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">I2luY2x1ZGUgPG1hcD4K</text>
+        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGRhdGE7IC8qIERhdGEgdG8gYmUgcGFyc2VkLiAqLwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6bWFwPHN0ZDo6c3RyaW5nLCBzdGQ6OnN0cmluZz4gaGVhZDsgLyogUGFyc2VkIGRhdGEgKi8K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
