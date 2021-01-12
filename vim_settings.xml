@@ -104,12 +104,12 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="8" column="21" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610470992810">
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610471812699">
         <mark key="'" line="22" column="0" />
-        <mark key="[" line="36" column="1" />
-        <mark key="]" line="41" column="4" />
-        <mark key="." line="41" column="3" />
-        <mark key="^" line="41" column="4" />
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="1" />
+        <mark key="." line="74" column="0" />
+        <mark key="^" line="74" column="1" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -297,7 +297,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>int</text>
+        <text>}</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -309,16 +309,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>int</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y29uZmlnRWxlbWVudCBjb25maWdGYWlsZWRUeXBlID0geyJmYWlsZWQiLCBDT05GSUdUWVBFX05PTkUsIC0xfTsK</text>
+        <text encoding="base64">ICAgICAgICB0eXBlID0gc3RkOjptYWtlX3VuaXF1ZTxIVFRQUmVxdWVzdE1ldGhvZD4oSFRUUFJlcXVlc3RNZXRob2Q6OkdFVCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RkOjpjb3V0IDw8ICJTOiAiIDw8IGkgPDwgIiBFOiAiIDw8IGVuZCA8PCAiIExpbmU6ICIgPDwgaGVhZGVyLnN1YnN0cihpLCBlbmQpIDw8ICJcbiI7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -349,28 +349,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">ICAgICAgICAvKgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICovCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nIGggPSAiR0VUIC8gSFRUUC8xLjFcclxuSG9zdDogMTAuMC4wLjE3ODo2MDAxXHJcbmFjY2VwdDogVGFjb3NcclxuIjsKICAgIGhlYWRlcnMgaGVhZChoKTsKICAgIGhlYWQucHJpbnRfaGVhZGVycygpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGhlYWRlcnMK</text>
+      <register name="5" type="4">
+        <text encoding="base64">ICYmCiAgICAgICAgICAgICBkYXRhW2kgKyAzXSA9PSAnRScgJiYgZGF0YVtpICsgNF0gPT0gJ1QnICYmIGRhdGFbaSArIDVdID09ICdFJyk=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHMoaGVhZGVyKTsKICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHRtcDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly8KLy8gQ3JlYXRlZCBieSBnIG9uIDEvOS8yMS4KLy8K</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAmJiBkYXRhW2kgKyA2ID09ICdUJ10K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGRhdGE7IC8qIERhdGEgdG8gYmUgcGFyc2VkLiAqLwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RkOjpjb3V0IDw8ICJTOiAiIDw8IGkgPDwgIiBFOiAiIDw8IGVuZCA8PCAiIExpbmU6ICIgPDwgaGVhZGVyLnN1YnN0cihpLCBlbmQpIDw8ICJcbiI7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIC8qCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
