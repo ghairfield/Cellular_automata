@@ -104,12 +104,12 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="8" column="21" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610418380841">
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610470992810">
         <mark key="'" line="22" column="0" />
-        <mark key="[" line="5" column="1" />
-        <mark key="]" line="6" column="18" />
-        <mark key="." line="6" column="17" />
-        <mark key="^" line="6" column="18" />
+        <mark key="[" line="36" column="1" />
+        <mark key="]" line="41" column="4" />
+        <mark key="." line="41" column="3" />
+        <mark key="^" line="41" column="4" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -135,11 +135,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610418342785">
-        <mark key="[" line="38" column="69" />
-        <mark key="]" line="39" column="27" />
-        <mark key="." line="39" column="26" />
-        <mark key="^" line="39" column="27" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610470963972">
+        <mark key="[" line="49" column="8" />
+        <mark key="]" line="50" column="23" />
+        <mark key="." line="50" column="22" />
+        <mark key="^" line="50" column="23" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607989258734">
         <mark key="'" line="31" column="0" />
@@ -297,7 +297,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>int</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -309,7 +309,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>int</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
