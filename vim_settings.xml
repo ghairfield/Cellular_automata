@@ -12,6 +12,7 @@
       </history-search>
       <history-cmd>
         <entry>wa</entry>
+        <entry>W</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -104,12 +105,12 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="8" column="21" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610471812699">
-        <mark key="'" line="22" column="0" />
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="1" />
-        <mark key="." line="74" column="0" />
-        <mark key="^" line="74" column="1" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" timestamp="1610472657892">
+        <mark key="'" line="96" column="0" />
+        <mark key="[" line="62" column="22" />
+        <mark key="]" line="62" column="23" />
+        <mark key="^" line="62" column="23" />
+        <mark key="." line="62" column="22" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/mem.cpp" timestamp="1607945679129">
         <mark key="[" line="16" column="8" />
@@ -135,11 +136,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610470963972">
-        <mark key="[" line="49" column="8" />
-        <mark key="]" line="50" column="23" />
-        <mark key="." line="50" column="22" />
-        <mark key="^" line="50" column="23" />
+      <file name="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.h" timestamp="1610472441674">
+        <mark key="[" line="20" column="9" />
+        <mark key="]" line="51" column="23" />
+        <mark key="." line="51" column="22" />
+        <mark key="^" line="51" column="23" />
       </file>
       <file name="$USER_HOME$/Programming/C++/HTTPity/src/config.h" timestamp="1607989258734">
         <mark key="'" line="31" column="0" />
@@ -164,11 +165,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
-      <jump line="32" column="46" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
-      <jump line="9" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.h" />
-      <jump line="105" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
-      <jump line="101" column="0" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
       <jump line="11" column="14" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="77" column="39" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/display.cpp" />
       <jump line="52" column="18" filename="$USER_HOME$/Programming/C++/Cellular_automata/src/cgl.cpp" />
@@ -264,6 +260,11 @@
       <jump line="19" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
       <jump line="47" column="3" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/server.cpp" />
       <jump line="24" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/main.cpp" />
+      <jump line="53" column="8" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
+      <jump line="72" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
+      <jump line="70" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
+      <jump line="50" column="3" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
+      <jump line="67" column="0" filename="$USER_HOME$/Programming/C++/TinyHTTP/src/headers.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -297,7 +298,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>}</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="f" type="4">
         <keys>
@@ -309,16 +310,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkQ29uZmlnRnJvbUZpbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0eXBlID0gc3RkOjptYWtlX3VuaXF1ZTxIVFRQUmVxdWVzdE1ldGhvZD4oSFRUUFJlcXVlc3RNZXRob2Q6OkdFVCk7Cg==</text>
+        <text encoding="base64">ICAgIGVsc2UgaWYgKGRhdGFbaV0gPT0gJ0QnICYmIGRhdGFbaSArIDFdID09ICdFJyAmJiBkYXRhW2kgKyAyXSA9PSAnTCcgJiYKICAgICAgICAgICAgIGRhdGFbaSArIDNdID09ICdFJyAmJiBkYXRhW2kgKyA0XSA9PSAnVCcgJiYgZGF0YVtpICsgNV0gPT0gJ0UnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoKQo=</text>
+        <text encoding="base64">ICAgIGludCBpID0gMDsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -349,28 +350,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvKgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICYmIGRhdGFbaSArIDVdID09ICdOJyAmJgogICAgICAgICAgICAgICAgIHR5cGVbaSArIDZdID09ICdTJyk=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICYmCiAgICAgICAgICAgICBkYXRhW2kgKyAzXSA9PSAnRScgJiYgZGF0YVtpICsgNF0gPT0gJ1QnICYmIGRhdGFbaSArIDVdID09ICdFJyk=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAmJiBkYXRhW2kgKyA2ID09ICdUJ10K</text>
+        <text encoding="base64">ICAgICAgICAvKgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RkOjpjb3V0IDw8ICJTOiAiIDw8IGkgPDwgIiBFOiAiIDw8IGVuZCA8PCAiIExpbmU6ICIgPDwgaGVhZGVyLnN1YnN0cihpLCBlbmQpIDw8ICJcbiI7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
