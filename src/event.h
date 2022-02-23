@@ -7,27 +7,32 @@
 
 #include <SDL2/SDL_events.h>
 
-class Event {
-public:
-    Event() = default;;
-    virtual ~Event() = default;;
+namespace CA
+{
 
-    virtual void OnEvent(SDL_Event& e);
+    class Event
+    {
+    public:
+        Event() = default;
+        virtual ~Event() = default;
 
-    // Events, must override
-    virtual void OnKeyDown(SDL_Scancode key, Uint16 mod) {};
-    virtual void OnKeyUp(SDL_Scancode key, Uint16 mod) {};
+        virtual void onEvent(SDL_Event &e);
 
-    virtual void OnLeftMouseDown(int x, int y) {};
-    virtual void OnLeftMouseUp(int x, int y) {};
-    virtual void OnRightMouseDown(int x, int y) {};
-    virtual void OnRightMouseUp(int x, int y) {};
-    virtual void OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) {};
-    virtual void OnMouseMoveWithRightButton(int x, int y, int rx, int ry) {};
-    virtual void OnMouseMotion() {};
+        // Events, must override
+        virtual void onKeyDown(SDL_Scancode key, Uint16 mod){};
+        virtual void onKeyUp(SDL_Scancode key, Uint16 mod){};
 
-    virtual void OnExit() {};
-};
+        virtual void onLeftMouseDown(int x, int y){};
+        virtual void onLeftMouseUp(int x, int y){};
+        virtual void onRightMouseDown(int x, int y){};
+        virtual void onRightMouseUp(int x, int y){};
+        virtual void onMouseMoveWithLeftButton(int x, int y, int rx, int ry){};
+        virtual void onMouseMoveWithRightButton(int x, int y, int rx, int ry){};
+        virtual void onMouseMotion(){};
 
+        virtual void onExit(){};
+    };
 
-#endif //CELLULAR_AUTOMATA_EVENT_H
+} /* namespace CA */
+
+#endif // CELLULAR_AUTOMATA_EVENT_H

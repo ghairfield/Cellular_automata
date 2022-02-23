@@ -5,66 +5,81 @@
 #ifndef CELLULAR_AUTOMATA_DISPLAY_H
 #define CELLULAR_AUTOMATA_DISPLAY_H
 
-#include "SDL2/SDL.h"
+#include <SDL2/SDL.h>
 #include <vector>
-#include <utility>
+#include <string>
 #include "event.h"
+#include "node.h"
+#include "unit.h"
 
-#define DISPLAY_MAX_X 1200
-#define DISPLAY_MAX_Y 800
-#define DISPLAY_SPACING 10
-#define DISPLAY_MAX_ARR ((DISPLAY_MAX_X / DISPLAY_SPACING) * (DISPLAY_MAX_Y / DISPLAY_SPACING))
-#define ARR_XY(x,y) ((x) + ((y) * (DISPLAY_MAX_X / DISPLAY_SPACING)))
-#define MAX_ARR_X (DISPLAY_MAX_X / DISPLAY_SPACING)
-#define MAX_ARR_Y (DISPLAY_MAX_Y / DISPLAY_SPACING)
+namespace CA
+{
+    class Display : public Unit
+    {
+    public:
+        Display() = delete;
 
-class Node {
-public:
-    char val;
-    bool dirty;
-};
+        /**
+         * @brief Construct a new Display object. Use @init for actual
+         * SDL initialization
+         *
+         * @param maxX Max width in pixels
+         * @param maxY Max height in pixels
+         * @param space A `unit` of pixels that represents a cell
+         * @see init()
+         */
+        Display(uint32_t maxX, uint32_t maxY, uint32_t space);
+        ~Display();
 
-class Display : public Event {
-public:
-    static constexpr std::pair<int, int> maxSize{ DISPLAY_MAX_X, DISPLAY_MAX_Y };
+        /**
+         * @brief Initialize the SDL environment and set the screen size.
+         *
+         * @param title Title of the screen
+         * @return true SDL was initialized successfully
+         * @return false There was a problem
+         *
+         * @todo Change to throw an error
+         */
+        bool init(const std::string &title);
 
-    Display();
-    ~Display() = default;
+        /**
+         * @brief Prints the contents of screen to display. Drawing is affected
+         * by m_displaySpacing, each CA::Node in the screen is assumed to be
+         * a SDL_Rect.
+         *
+         */
+        void drawScreen(std::vector<CA::Node> &screen);
 
-    bool OnInit();
+        /**
+         * @brief Draw a grid on screen. This is spaced by DISPLAY_SPACING
+         * and drawn horizontally and vertically.
+         *
+         * @param d Display it read or black
+         *
+         * @todo The param should go and should be replaced by something
+         * better.
+         */
+        void displayGridOnScreen(bool d);
 
-    bool Run();
+        /**
+         * @brief Toggles if the grid is displayed on the screen.
+         *
+         */
+        void toggleGrid();
 
-    void OnEvent(SDL_Event& e) override;
+        /**
+         * @brief Destroys all allocated assets.
+         *
+         */
+        void destroy();
 
-    void OnKeyDown(SDL_Scancode key, Uint16 mod) override;
+    private:
+        bool m_displayGrid;
 
-    void OnLeftMouseDown(int x, int y) override;
-    void OnMouseMoveWithLeftButton(int x, int y, int rx, int ry) override;
-    void OnRightMouseDown(int x, int y) override;
-    void OnMouseMoveWithRightButton(int x, int y, int rx, int ry) override;
+        SDL_Window *m_window;
+        SDL_Renderer *m_render;
+    };
 
-    void OnExit() override;
+} /* namespace CA */
 
-    void DisplayGridOnScreen(bool d);
-
-    void OnDestroy();
-
-private:
-
-    static void getCellPosition(std::pair<int, int> &pos, int x, int y);
-    void writeCellPosition(std::pair<int, int> & pos, char val);
-
-    bool m_running;
-    bool m_displayGrid;
-
-    SDL_Window *m_window;
-    SDL_Renderer *m_render;
-
-    std::vector<Node> m_cell, *m_curBuf;
-    void DrawScreen();
-    void clearCells();
-};
-
-
-#endif //CELLULAR_AUTOMATA_DISPLAY_H
+#endif // CELLULAR_AUTOMATA_DISPLAY_H

@@ -5,70 +5,86 @@
 #ifndef CELLULAR_AUTOMATA_CGL_H
 #define CELLULAR_AUTOMATA_CGL_H
 
+#include <utility>
 #include "display.h"
+#include "node.h"
+#include "unit.h"
 
-class CGL {
-public:
-    /// We either init with an initial value to copy or nothing.
-    CGL();
-    explicit CGL(const std::vector<Node> &source);
+namespace CA
+{
 
-    ~CGL() = default;
+    class CGL : public Unit
+    {
+    public:
+        CGL() = delete;
 
-    /// Takes @times step's in Conway's Game of Life.
-    /// \param times Number of steps to take
-    void step(unsigned int times = 1);
+        /**
+         * @brief Construct a new CGL object
+         *
+         * @param maxX Size in pixels of width
+         * @param maxY size in pixels of height
+         * @param spacing Square pixel that makes up each cell
+         */
+        CGL(uint32_t maxX, uint32_t maxY, uint32_t spacing);
 
-    /// Copies @source to m_disp1 and sets m_curDisp to m_disp1
-    /// \param source Vector to copy
-    void initBoard(const std::vector<Node> &source);
+        ~CGL() = default;
 
-private:
+        /**
+         * @brief Operates on `board` and takes `times` steps in the game.
+         *
+         * @param board A board of Nodes to run Conway's game of life
+         * @param times Number of *lives* to take (currently unimplemented)
+         * @return std::vector<Node>&&
+         */
+        std::vector<Node>
+        step(const std::vector<Node> &board, uint32_t times = 1);
 
-    /// Counts all of the neighbors of @X, @Y. Calls the m_lookX functions.
-    /// \param x position
-    /// \param y position
-    /// \return Number of cells that are alive surrounding target
-    unsigned int m_countNeighbors(unsigned int x, unsigned int y);
+    private:
+        /// Counts all of the neighbors of @X, @Y. Calls the m_lookX functions.
+        /// \param x position
+        /// \param y position
+        /// \return Number of cells that are alive surrounding target
 
-    // We define the grid around a cell as m_look1 -> m_look8 as such
-    //      +-----+-----+-----+
-    //      |  1  |  2  |  3  |
-    //      +-----|-----|-----|
-    //      |  4  |  T  |  5  |
-    //      +-----+-----+-----+
-    //      |  6  |  7  |  8  |
-    //      +-----+-----+-----+
-    // Where T is the target cell.
+        /**
+         * @brief Returns the count of all cells active around the cell
+         * at `unit` x, y.
+         *
+         * @param board Grid of cells
+         * @param x `Unit` X position of target
+         * @param y `Unit` Y position of target
+         * @return uint32_t Number of 'alive' cells surrounding target
+         */
+        uint32_t countNeighbors(const std::vector<Node> &board,
+                                uint32_t x, uint32_t y);
 
-    /// Returns 0 if no alive cell is at location or 1 if it is alive.
-    /// \param x position
-    /// \param y position
-    /// \return 1 or 0 if alive.
-    bool m_look1(unsigned int x, unsigned int y);
-    bool m_look2(unsigned int x, unsigned int y);
-    bool m_look3(unsigned int x, unsigned int y);
-    bool m_look4(unsigned int x, unsigned int y);
-    bool m_look5(unsigned int x, unsigned int y);
-    bool m_look6(unsigned int x, unsigned int y);
-    bool m_look7(unsigned int x, unsigned int y);
-    bool m_look8(unsigned int x, unsigned int y);
+        // We define the grid around a cell as
+        //      +-----+-----+-------+
+        //      |  NW  |  N  |  NE  |
+        //      +------|-----|------|
+        //      |  W   |  T  |  E   |
+        //      +------+-----+------+
+        //      |  SW  |  S  |  SE  |
+        //      +-----+-----+-------+
+        // Where T is the target cell.
 
-    /// Initializes the board
-    void init();
+        /**
+         * @brief Counts an individual cell from a target of x,y
+         *
+         * @param board Grid of cells
+         * @param x Target X
+         * @param y Target Y
+         * @return true If target neighbor is 'alive'
+         * @return false If target neighbor is 'dead'
+         */
+        bool northWest(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool north(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool northEast(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool west(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool east(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool southWest(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool south(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+        bool southEast(const std::vector<Node> &board, uint32_t x, uint32_t y) const;
+    };
 
-    /// @m_disp1 and @m_disp2 are the 2 different boards. We need 2 since we
-    /// read from 1 and write to another. If the write takes place before the
-    /// read the cell's neighbors won't be counted correctly.
-    std::vector<Node> m_disp1, m_disp2;
-
-    /// Pointer to the current display. This should be read from for counting
-    /// neighbors and posting to the Display class.
-    std::vector<Node> *m_curDisp;
-
-    /// Size of the board for convenience.
-    unsigned int m_sizeX, m_sizeY;
-};
-
-
-#endif //CELLULAR_AUTOMATA_CGL_H
+} /* namespace CA */
+#endif /* CELLULAR_AUTOMATA_CGL_H */
