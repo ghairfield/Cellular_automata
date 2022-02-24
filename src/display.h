@@ -11,6 +11,7 @@
 #include "event.h"
 #include "node.h"
 #include "unit.h"
+#include "colors.h"
 
 namespace CA
 {
@@ -59,7 +60,7 @@ namespace CA
          * @todo The param should go and should be replaced by something
          * better.
          */
-        void displayGridOnScreen(bool d);
+        void displayGridOnScreen(const Color &c);
 
         /**
          * @brief Toggles if the grid is displayed on the screen.
@@ -68,13 +69,15 @@ namespace CA
         void toggleGrid();
 
         /**
-         * @brief Destroys all allocated assets.
+         * @brief Destroys all allocated assets. Must be called before
+         * deleting `Display` class!.
          *
          */
         void destroy();
 
     private:
         bool m_displayGrid;
+        Colors m_colors;
 
         SDL_Window *m_window;
         SDL_Renderer *m_render;

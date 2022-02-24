@@ -7,5 +7,5 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
-add_executable(Cellular_automata src/main.cpp src/game.cpp src/display.cpp src/display.h src/event.cpp src/event.h src/cgl.cpp src/cgl.h)
+add_executable(Cellular_automata src/main.cpp src/game.cpp src/display.cpp src/display.h src/event.cpp src/event.h src/cgl.cpp src/colors.cpp)
 target_link_libraries(Cellular_automata PRIVATE ${SDL2_LIBRARIES})

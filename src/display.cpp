@@ -46,10 +46,10 @@ bool CA::Display::init(const std::string &title)
     return true;
 }
 
-void CA::Display::displayGridOnScreen(bool d)
+void CA::Display::displayGridOnScreen(const CA::Color &c)
 {
-    (d) ? SDL_SetRenderDrawColor(m_render, 3, 152, 252, SDL_ALPHA_OPAQUE)
-        : SDL_SetRenderDrawColor(m_render, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    auto [r, g, b] = c;
+    SDL_SetRenderDrawColor(m_render, r, g, b, SDL_ALPHA_OPAQUE);
 
     for (int ix = m_displaySpacing; ix < getPixelsX(); ix += m_displaySpacing)
     {
@@ -68,10 +68,19 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
 
     if (grid != m_displayGrid)
     {
-        displayGridOnScreen(m_displayGrid);
+        if (m_displayGrid)
+        {
+            displayGridOnScreen(m_colors.getColor("My Blue"));
+        }
+        else
+        {
+            displayGridOnScreen(m_colors.getColor("Default Background"));
+        }
         grid = m_displayGrid;
     }
 
+    auto [eraseR, eraseG, eraseB] = m_colors.getColor("Black");
+    auto [paintR, paintG, paintB] = m_colors.getColor("My Red");
     for (int ix = 0; ix < unitsX(); ++ix)
     {
         for (int iy = 0; iy < unitsY(); ++iy)
@@ -83,7 +92,8 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
 
                 if (screen.at(xyToIndex(ix, iy)).val != 0)
                 {
-                    SDL_SetRenderDrawColor(m_render, 255, 11, 0, SDL_ALPHA_OPAQUE);
+                    SDL_SetRenderDrawColor(m_render, paintR, paintG, paintB,
+                                           SDL_ALPHA_OPAQUE);
                     screen.at(xyToIndex(ix, iy)).dirty = false;
                     //                  SDL_RenderFillRect(m_render, &r);
                     if (SDL_RenderDrawRect(m_render, &r) != 0)
@@ -93,7 +103,8 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
                 }
                 else
                 {
-                    SDL_SetRenderDrawColor(m_render, 0, 0, 0, SDL_ALPHA_OPAQUE);
+                    SDL_SetRenderDrawColor(m_render, eraseR, eraseG, eraseB,
+                                           SDL_ALPHA_OPAQUE);
                     screen.at(xyToIndex(ix, iy)).dirty = false;
                     //                  SDL_RenderFillRect(m_render, &r);
                     if (SDL_RenderDrawRect(m_render, &r) != 0)
