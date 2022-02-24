@@ -29,6 +29,6 @@ Commands:
 - [ ] CLI options for x, y, spacing
 - [ ] Toggling grid should have no delay
 - [ ] Add other automation
-- [ ] Change how colors are displayed in `Display`
+- [x] Change how colors are displayed in `Display`
 - [ ] Create some basic Game of Life patterns
   - [ ] Way to create and save/load patterns
