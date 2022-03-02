@@ -34,13 +34,12 @@ namespace CA
     void destroy();
 
     SDL_Texture *createTextTexture(SDL_Renderer *rend, const std::string &text,
-                                   const std::string &font, const Color &color);
+                                   const std::string &font, const SDL_Color &color);
 
     bool openNewFont(const std::string &name,
                      const std::string &fontLocation, uint32_t size);
 
   private:
-    // TODO create map of fonts so no reloading of them
     std::map<std::string, TTF_Font *> fonts;
     SDL_Color color;
   };

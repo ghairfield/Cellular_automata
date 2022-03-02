@@ -61,7 +61,7 @@ namespace CA
          * @todo The param should go and should be replaced by something
          * better.
          */
-        void displayGridOnScreen(const Color &c);
+        void displayGridOnScreen(const SDL_Color &c);
 
         /**
          * @brief Toggles if the grid is displayed on the screen.

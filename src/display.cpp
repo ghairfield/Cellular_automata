@@ -58,10 +58,9 @@ bool CA::Display::init(const std::string &title)
     return true;
 }
 
-void CA::Display::displayGridOnScreen(const CA::Color &c)
+void CA::Display::displayGridOnScreen(const SDL_Color &c)
 {
-    auto [r, g, b] = c;
-    SDL_SetRenderDrawColor(m_render, r, g, b, SDL_ALPHA_OPAQUE);
+    SDL_SetRenderDrawColor(m_render, c.r, c.g, c.b, SDL_ALPHA_OPAQUE);
 
     for (int ix = m_displaySpacing; ix < getPixelsX(); ix += m_displaySpacing)
     {
@@ -91,8 +90,10 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
         grid = m_displayGrid;
     }
 
-    auto [eraseR, eraseG, eraseB] = m_colors.getColor("Black");
-    auto [paintR, paintG, paintB] = m_colors.getColor("My Red");
+    // auto [eraseR, eraseG, eraseB] = m_colors.getColor("Black");
+    // auto [paintR, paintG, paintB] = m_colors.getColor("My Red");
+    SDL_Color erase = m_colors.getColor("Black");
+    SDL_Color paint = m_colors.getColor("My Red");
     for (int ix = 0; ix < unitsX(); ++ix)
     {
         for (int iy = 0; iy < unitsY(); ++iy)
@@ -104,7 +105,7 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
 
                 if (screen.at(xyToIndex(ix, iy)).val != 0)
                 {
-                    SDL_SetRenderDrawColor(m_render, paintR, paintG, paintB,
+                    SDL_SetRenderDrawColor(m_render, paint.r, paint.g, paint.b,
                                            SDL_ALPHA_OPAQUE);
                     screen.at(xyToIndex(ix, iy)).dirty = false;
                     //                  SDL_RenderFillRect(m_render, &r);
@@ -115,7 +116,7 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
                 }
                 else
                 {
-                    SDL_SetRenderDrawColor(m_render, eraseR, eraseG, eraseB,
+                    SDL_SetRenderDrawColor(m_render, erase.r, erase.g, erase.b,
                                            SDL_ALPHA_OPAQUE);
                     screen.at(xyToIndex(ix, iy)).dirty = false;
                     //                  SDL_RenderFillRect(m_render, &r);

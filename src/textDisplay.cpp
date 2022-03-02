@@ -18,17 +18,14 @@ void CA::TextDisplay::destroy()
 
 SDL_Texture *
 CA::TextDisplay::createTextTexture(SDL_Renderer *rend, const std::string &text,
-                                   const std::string &font, const CA::Color &color)
+                                   const std::string &font, const SDL_Color &color)
 {
   std::map<std::string, TTF_Font *>::const_iterator it;
   it = fonts.find(font);
   if (it == fonts.end())
     return nullptr;
-  // TODO Change colors class to SDL_Color
-  auto [r, g, b] = color;
-  SDL_Color c = {r, g, b};
 
-  SDL_Surface *surface = TTF_RenderText_Solid(it->second, text.c_str(), c);
+  SDL_Surface *surface = TTF_RenderText_Solid(it->second, text.c_str(), color);
   SDL_Texture *texture = SDL_CreateTextureFromSurface(rend, surface);
   SDL_FreeSurface(surface);
 

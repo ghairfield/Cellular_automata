@@ -2,6 +2,7 @@
 #ifndef CELLULAR_AUTOMATA_COLORS_H
 #define CELLULAR_AUTOMATA_COLORS_H
 
+#include <SDL2/SDL.h>
 #include <string>
 #include <map>
 #include <tuple>
@@ -9,8 +10,6 @@
 
 namespace CA
 {
-  typedef std::tuple<uint32_t, uint32_t, uint32_t> Color;
-
   class Colors
   {
   public:
@@ -40,10 +39,10 @@ namespace CA
      * @return A Color object or default foreground
      * @todo Need a better return scheme here
      */
-    Color getColor(const std::string &name);
+    SDL_Color getColor(const std::string &name);
 
   private:
-    std::map<std::string, Color> m_colors;
+    std::map<std::string, SDL_Color> m_colors;
   };
 
 } /* namespace CA */
