@@ -41,6 +41,18 @@ bool CA::Display::init(const std::string &title)
         return false;
     }
 
+    if (!m_text.init())
+        return false;
+
+    if (!m_text.openNewFont("Regular", CA::regularFont, 22))
+        std::cerr << "Could not load new font\n";
+
+    /*
+    Test for SDL2_ttf
+    texture = m_text.createTextTexture(m_render, "What does this do", "Regular", m_colors.getColor("Blue"));
+    assert(texture);
+    */
+
     SDL_SetWindowTitle(m_window, title.c_str());
 
     return true;
@@ -115,6 +127,16 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
             }
         }
     }
+
+    /*
+    Test to make sure SDL2_ttf is working.
+    int x, y;
+    SDL_QueryTexture(texture, NULL, NULL, &x, &y);
+    SDL_Rect textRect = {0, 0, x, y};
+    SDL_RenderCopy(m_render, texture, NULL, &textRect);
+    assert(texture);
+    */
+
     SDL_RenderPresent(m_render);
 }
 
@@ -130,6 +152,9 @@ void CA::Display::destroy()
     if (m_window)
         SDL_DestroyWindow(m_window);
     SDL_Quit();
+    SDL_DestroyTexture(texture);
+
+    m_text.destroy();
 
     m_render = nullptr;
     m_window = nullptr;

@@ -1,6 +1,6 @@
 {
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "C_Cpp.default.includePath": ["/usr/include/SDL2", "${default}"],
+  "C_Cpp.default.includePath": ["/usr/include/SDL2/", "${default}"],
   "C_Cpp.errorSquiggles": "Enabled",
   "files.associations": {
     "*.COBOL*": "cobol",

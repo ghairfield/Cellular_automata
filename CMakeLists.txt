@@ -5,7 +5,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
 find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIRS})
+find_package(SDL2TTF REQUIRED)
+include_directories(${SDL2_INCLUDE_DIR})
 
-add_executable(Cellular_automata src/main.cpp src/game.cpp src/display.cpp src/display.h src/event.cpp src/event.h src/cgl.cpp src/colors.cpp)
-target_link_libraries(Cellular_automata PRIVATE ${SDL2_LIBRARIES})
+file(GLOB SOURCES "src/*.cpp")
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+# I'm not sure what this does and it work without it....
+#target_link_libraries(Cellular_automata PRIVATE ${SDL2_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL2)
+target_link_libraries(Cellular_automata PRIVATE SDL2_ttf)

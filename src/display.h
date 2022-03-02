@@ -12,6 +12,7 @@
 #include "node.h"
 #include "unit.h"
 #include "colors.h"
+#include "textDisplay.h"
 
 namespace CA
 {
@@ -78,6 +79,9 @@ namespace CA
     private:
         bool m_displayGrid;
         Colors m_colors;
+        TextDisplay m_text;
+
+        SDL_Texture *texture; // DELETE ME
 
         SDL_Window *m_window;
         SDL_Renderer *m_render;
