@@ -78,10 +78,9 @@ namespace CA
 
     private:
         bool m_displayGrid;
-        Colors m_colors;
         TextDisplay m_text;
 
-        SDL_Texture *texture; // DELETE ME
+        // SDL_Texture *texture; // DELETE ME
 
         SDL_Window *m_window;
         SDL_Renderer *m_render;

@@ -13,11 +13,7 @@ namespace CA
   class Colors
   {
   public:
-    /**
-     * @brief Construct a new Colors object with some basic colors.
-     *
-     */
-    Colors();
+    Colors() = delete;
 
     /**
      * @brief Create a new color
@@ -29,7 +25,31 @@ namespace CA
      * @return true Color was created
      * @return false Another color with @name exists
      */
-    bool createColor(const std::string &name, uint8_t r, uint8_t g, uint8_t b);
+    static bool createColor(const std::string &name,
+                            uint8_t r, uint8_t g, uint8_t b)
+    {
+      auto itr = m_colors.find(name);
+      if (itr == m_colors.end())
+      {
+        return false;
+      }
+
+      m_colors.emplace(name, SDL_Color{r, g, b});
+      return true;
+    }
+
+    /**
+     * @brief Create a Color object
+     *
+     * @param name Name for the color, used to lookup the color
+     * @param c SDL_Color
+     * @return true Color was created
+     * @return false Another color with @name exists
+     */
+    static bool createColor(const std::string &name, const SDL_Color &c)
+    {
+      return Colors::createColor(name, c.r, c.g, c.b);
+    }
 
     /**
      * @brief Get a color object. If no object exits, it returns the
@@ -39,10 +59,21 @@ namespace CA
      * @return A Color object or default foreground
      * @todo Need a better return scheme here
      */
-    SDL_Color getColor(const std::string &name);
+    static SDL_Color getColor(const std::string &name)
+    {
+      auto itr = m_colors.find(name);
+      if (itr == m_colors.end())
+      {
+        // TODO figure out something better to do here.
+        // -- maybe optional??
+        return m_colors.at("Default Foreground");
+      }
+      else
+        return m_colors.at(name);
+    }
 
   private:
-    std::map<std::string, SDL_Color> m_colors;
+    static std::map<std::string, SDL_Color> m_colors;
   };
 
 } /* namespace CA */

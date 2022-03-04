@@ -81,19 +81,17 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
     {
         if (m_displayGrid)
         {
-            displayGridOnScreen(m_colors.getColor("My Blue"));
+            displayGridOnScreen(CA::Colors::getColor("My Blue"));
         }
         else
         {
-            displayGridOnScreen(m_colors.getColor("Default Background"));
+            displayGridOnScreen(CA::Colors::getColor("Default Background"));
         }
         grid = m_displayGrid;
     }
 
-    // auto [eraseR, eraseG, eraseB] = m_colors.getColor("Black");
-    // auto [paintR, paintG, paintB] = m_colors.getColor("My Red");
-    SDL_Color erase = m_colors.getColor("Black");
-    SDL_Color paint = m_colors.getColor("My Red");
+    SDL_Color erase = CA::Colors::getColor("Black");
+    SDL_Color paint = CA::Colors::getColor("My Red");
     for (int ix = 0; ix < unitsX(); ++ix)
     {
         for (int iy = 0; iy < unitsY(); ++iy)
@@ -101,7 +99,7 @@ void CA::Display::drawScreen(std::vector<CA::Node> &screen)
             if (screen.at(xyToIndex(ix, iy)).dirty)
             {
                 r = {(int)(ix * m_displaySpacing + 2), (int)(iy * m_displaySpacing + 2),
-                     (int)(m_displaySpacing - 3), (int)(m_displaySpacing - 3)};
+                     (int)(m_displaySpacing - 2), (int)(m_displaySpacing - 2)};
 
                 if (screen.at(xyToIndex(ix, iy)).val != 0)
                 {
@@ -153,7 +151,7 @@ void CA::Display::destroy()
     if (m_window)
         SDL_DestroyWindow(m_window);
     SDL_Quit();
-    SDL_DestroyTexture(texture);
+    // SDL_DestroyTexture(texture);
 
     m_text.destroy();
 
